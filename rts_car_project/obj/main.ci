@@ -1,0 +1,7 @@
+graph: { title: "D:\programming\ada_projects\rts_car_project\src\main.adb"
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-time.ads:41:14" shape : ellipse }
+node: { title: "microbit__ios__write" label: "Write\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-ios.ads:62:14" shape : ellipse }
+node: { title: "_ada_main" label: "Main\nD:\programming\ada_projects\rts_car_project\src\main.adb:35:1\n16 bytes (static)" }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:46:23" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__write" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:43:22" }
+}
