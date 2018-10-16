@@ -1,0 +1,5 @@
+main.adb:18:18: no candidate interpretations match the actuals:
+main.adb:18:28: expected type "UART_Port" defined at hal-uart.ads:48
+main.adb:18:28: found type "port_ptr" defined at line 8
+main.adb:18:28:   ==> in call to "Transmit" at hal-uart.ads:62
+main.adb:18:28:   ==> in call to "Transmit" at hal-uart.ads:54

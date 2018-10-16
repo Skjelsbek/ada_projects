@@ -33,7 +33,7 @@ D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
 D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
 D hal-time.ads		20180927154656 f5295cd7 hal.time%s
 D interfac.ads		20180524194940 5ab55268 interfaces%s
-D main.adb		20181015124840 93ff9226 main%b
+D main.adb		20181016133910 93ff9226 main%b
 D microbit.ads		20180927154656 4ce6a4c2 microbit%s
 D microbit-ios.ads	20180927154656 f7f319ec microbit.ios%s
 D microbit-time.ads	20180927154656 6bbc81c6 microbit.time%s
@@ -57,15 +57,15 @@ X 5 hal-i2c.ads
 X 6 hal-time.ads
 34h9*Delays
 X 8 main.adb
-35U11*Main 35b11 49l5 49t9
-41i11 Value<short_integer> 43r33
+4U11*Main 4b11 17l5 17t9
+10i11 Value<short_integer> 12r33
 X 9 microbit.ads
-35K9*MicroBit 8|32r6 33r6 41r20 43r10 46r10 9|67e13
+35K9*MicroBit 8|1r6 2r6 10r20 12r10 14r10 9|67e13
 X 10 microbit-ios.ads
-32K18*IOs 8|32w15 41r29 43r19 10|69e17
-56I9*Analog_Value<short_integer> 8|41r33
-62U14*Write 8|43s23
+32K18*IOs 8|1w15 10r29 12r19 10|69e17
+56I9*Analog_Value<short_integer> 8|10r33
+62U14*Write 8|12s23
 X 11 microbit-time.ads
-35K18*Time 8|33w15 46r19 11|81e18
-41U14*Delay_Ms 8|46s24
+35K18*Time 8|2w15 14r19 11|81e18
+41U14*Delay_Ms 8|14s24
 

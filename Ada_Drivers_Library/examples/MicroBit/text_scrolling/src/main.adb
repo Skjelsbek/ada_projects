@@ -30,11 +30,13 @@
 ------------------------------------------------------------------------------
 
 with MicroBit.Display;
+with Ada.Integer_Text_IO;
 
 procedure Main is
 begin
 
    loop
       MicroBit.Display.Display ("Make with Ada!  ");
+      Ada.Integer_Text_IO(1);
    end loop;
 end Main;

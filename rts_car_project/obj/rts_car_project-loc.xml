@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<Locations>
+<Locations >
   <Project>
-    <vfs_file>D:\programming\ada_projects\rts_car_project\rts_car_project.gpr</vfs_file>
+    <vfs_file />
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>D:\GNAT\2018\bin\src\main.adb</vfs_file>
@@ -18,17 +18,53 @@
       <vfs_project />
       <vfs_file>D:\GNAT\2018\bin\microbit_example.gpr</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 40" line=" 12" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\steering.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\steering.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\uart_receiver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 64" line=" 1" >
       <vfs_project />
       <vfs_file>D:\programming\ada_projects\rts_car_project\rts_car_project.gpr</vfs_file>
     </file_marker>
-    <file_marker column=" 22" line=" 10" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>D:\programming\ada_projects\rts_car_project\rts_car_project.gpr</vfs_file>
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\dc_motor_controller.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\dc_motor_controller.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\steering.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\steering.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\uart_receiver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\uart_receiver.adb</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>D:\programming\ada_projects\rts_car_project\rts_car_project.gpr</vfs_project>
-      <vfs_file>D:\programming\ada_projects\rts_car_project\src\main.adb</vfs_file>
+      <vfs_project />
+      <vfs_file>D:\programming\ada_projects\rts_car_project\src\uart_receiver.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>
