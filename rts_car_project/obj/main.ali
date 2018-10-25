@@ -21,10 +21,11 @@ P ZX
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		0fb00a0c NE OO SU
+U main%b		main.adb		3bff0f0b NE OO SU
 W microbit%s		microbit.ads		microbit.ali
-W microbit.ios%s	microbit-ios.adb	microbit-ios.ali
+W microbit.servos%s	microbit-servos.adb	microbit-servos.ali
 W microbit.time%s	microbit-time.adb	microbit-time.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
 
 D ada.ads		20180524194940 76789da1 ada%s
 D a-tags.ads		20180524194940 2dde273c ada.tags%s
@@ -33,9 +34,10 @@ D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
 D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
 D hal-time.ads		20180927154656 f5295cd7 hal.time%s
 D interfac.ads		20180524194940 5ab55268 interfaces%s
-D main.adb		20181016133910 93ff9226 main%b
+D main.adb		20181024111730 92c13885 main%b
 D microbit.ads		20180927154656 4ce6a4c2 microbit%s
 D microbit-ios.ads	20180927154656 f7f319ec microbit.ios%s
+D microbit-servos.ads	20181024110954 c282b648 microbit.servos%s
 D microbit-time.ads	20180927154656 6bbc81c6 microbit.time%s
 D nrf51.ads		20180927154656 548f0fe8 nrf51%s
 D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
@@ -48,6 +50,7 @@ D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
 D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
 D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
 D system.ads		20180524194940 d6ae8d8f system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
 D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
 D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
 X 4 hal-gpio.ads
@@ -57,15 +60,13 @@ X 5 hal-i2c.ads
 X 6 hal-time.ads
 34h9*Delays
 X 8 main.adb
-4U11*Main 4b11 17l5 17t9
-10i11 Value<short_integer> 12r33
+6U11*Main 6b11 49l5 49t9
 X 9 microbit.ads
-35K9*MicroBit 8|1r6 2r6 10r20 12r10 14r10 9|67e13
-X 10 microbit-ios.ads
-32K18*IOs 8|1w15 10r29 12r19 10|69e17
-56I9*Analog_Value<short_integer> 8|10r33
-62U14*Write 8|12s23
-X 11 microbit-time.ads
-35K18*Time 8|2w15 14r19 11|81e18
-41U14*Delay_Ms 8|14s24
+35K9*MicroBit 8|2r6 4r6 14r7 15r7 9|67e13
+X 11 microbit-servos.ads
+34K18*Servos 8|4w15 14r16 11|52e20
+46U14*Go 8|14s23
+X 12 microbit-time.ads
+35K18*Time 8|2w15 15r16 12|81e18
+41U14*Delay_Ms 8|15s21
 

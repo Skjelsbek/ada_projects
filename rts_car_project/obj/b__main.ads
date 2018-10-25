@@ -93,6 +93,8 @@ package ada_main is
    --  microbit%s
    --  microbit.ios%s
    --  microbit.ios%b
+   --  microbit.servos%s
+   --  microbit.servos%b
    --  microbit.time%s
    --  microbit.time%b
    --  main%b
