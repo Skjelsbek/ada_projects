@@ -1,8 +1,0 @@
-graph: { title: "D:\programming\ada_projects\rts_car_project\src\dc_motor_controller.adb"
-node: { title: "microbit__ios__set" label: "Set\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-ios.ads:50:14" shape : ellipse }
-node: { title: "microbit__ios__write" label: "Write\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-ios.ads:62:14" shape : ellipse }
-node: { title: "dc_motor_controller__set_direction" label: "set_direction\nD:\programming\ada_projects\rts_car_project\src\dc_motor_controller.adb:11:4\n16 bytes (static)" }
-edge: { sourcename: "dc_motor_controller__set_direction" targetname: "microbit__ios__set" label: "D:\programming\ada_projects\rts_car_project\src\dc_motor_controller.adb:13:19" }
-node: { title: "dc_motor_controller__set_speed" label: "set_speed\nD:\programming\ada_projects\rts_car_project\src\dc_motor_controller.adb:6:4\n16 bytes (static)" }
-edge: { sourcename: "dc_motor_controller__set_speed" targetname: "microbit__ios__write" label: "D:\programming\ada_projects\rts_car_project\src\dc_motor_controller.adb:8:19" }
-}

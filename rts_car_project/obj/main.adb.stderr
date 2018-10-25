@@ -1,0 +1,4 @@
+steering.ads:8:04: violation of restriction "No_Tasking" at system.ads:52
+steering.ads:8:04: construct not allowed in configurable run-time mode
+steering.ads:8:04: file s-taskin.ads not found
+steering.ads:8:04: entity "System.Tasking.Task_Id" not available

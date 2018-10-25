@@ -1,0 +1,2 @@
+dc_motor_controller.adb:3:04: "private" not allowed in body
+dc_motor_controller.adb:4:04: "private" not allowed in body

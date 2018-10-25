@@ -1,7 +1,4 @@
-package body dc_motor_controller is
-   
-   direction_pin: constant MicroBit.IOs.Pin_Id := 0;
-   pwm_pin: constant MicroBit.IOs.Pin_Id := 1;      
+package body dc_motor_controller is          
    
    procedure set_speed(pwm: in MicroBit.IOs.Analog_Value) is
    begin
@@ -12,5 +9,5 @@ package body dc_motor_controller is
    begin
       MicroBit.IOs.Set(direction_pin, state);
    end set_direction;
-
+   
 end dc_motor_controller;
