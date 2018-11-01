@@ -1,0 +1,186 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -g
+P DB LC TF  ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U display%b		display.adb		f9f78fd2 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W font5x5%s		font5x5.ads		font5x5.ali
+W generic_timers%s	generic_timers.adb	generic_timers.ali  ED
+W hal%s			hal.ads			hal.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W nrf51_svd.gpio%s	nrf51_svd-gpio.ads	nrf51_svd-gpio.ali
+Z system%s		system.ads		system.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U display%s		display.ads		66ef7432 EE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 5b5f0f2f ada.exceptions%s
+D a-except.adb		20180524194940 85a38458 ada.exceptions%b
+D a-reatim.ads		20180524194940 4c16970e ada.real_time%s
+D a-retide.ads		20180524194940 081cdaa4 ada.real_time.delays%s
+D a-rttiev.ads		20180524194940 f8eb9b1f ada.real_time.timing_events%s
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D display.ads		20181101163446 66ef7432 display%s
+D display.adb		20181101163446 097092f4 display%b
+D font5x5.ads		20181101163446 d46d8d18 font5x5%s
+D generic_timers.ads	20181101163446 0d0187da generic_timers%s
+D generic_timers.adb	20181101163446 10d8e9ba generic_timers%b
+D hal.ads		20181101163446 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51_svd.ads		20181101163446 65dd34be nrf51_svd%s
+D nrf51_svd-gpio.ads	20181101163446 28503cd6 nrf51_svd.gpio%s
+D system.ads		20180524194940 14907ac1 system%s
+D s-bb.ads		20180524194940 09e072ae system.bb%s
+D s-bbbopa.ads		20180524194940 c38c4695 system.bb.board_parameters%s
+D s-bbbosu.ads		20180524194940 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180524194940 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180524194940 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180524194940 5c6b58c0 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180524194940 b080d5b9 system.bb.parameters%s
+D s-bbthre.ads		20180524194940 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180524194940 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180524194940 ad086247 system.bb.time%s
+D s-bbtiev.ads		20180524194940 f167837c system.bb.timing_events%s
+D s-multip.ads		20180524194940 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20180524194940 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20180524194940 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20180524194940 229b14dd system.os_interface%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524194940 801abd01 system.task_info%s
+D s-taspri.ads		20180524194940 351848fa system.task_primitives%s
+D s-taskin.ads		20180524194940 39441e76 system.tasking%s
+D s-taprob.ads		20180524194940 c8fc0753 system.tasking.protected_objects%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 10|16r6 16r26 30r21 217r22 217r44
+X 4 a-reatim.ads
+41K13*Real_Time 182e18 10|16w10 16r30 30r25 217r26 217r48
+51M9*Time<28|46M9>
+61I9*Time_Span<28|81I9>
+68V13*Clock{51M9}<28|134p13> 10|217s36
+72V14*"+"{51M9} 10|217s42
+126V13*Microseconds{61I9} 10|30s35
+128V13*Milliseconds{61I9} 10|217s58
+X 9 display.ads
+16K9*Display 23E12 70l5 70e12 10|22b14 236l5 236t12
+18U14*Scroll_Text 18>27 10|225b14 232l8 232t19
+18a27 Str{string} 10|225b27 229r19
+23I12 LED_Row_Coord{natural} 61r44 10|42r27 46r16 83r26 84r27 194r19
+26I12 LED_Column_Coord{natural} 61r26 10|36r6 37r8 37r33 45r16 80r22 81r24
+. 193r16
+29I12 GPIO_Pin_Index{natural} 53r38 57r44 10|49r27 52r25 105r27 114r25 125r39
+. 131r39
+41I9 Row_Range<integer> 48r19 53r24
+44I9 Column_Range<integer> 49r19 57r27
+47R9 LED_Point 50e14 61r62
+48i7*Row_Id{41I9} 10|76r53 95r54
+49i7*Column_Id{44I9} 10|77r54 97r59
+53a4 Row_Points(29I12) 10|76r14 95r15 144r18
+57a4 Column_Points(29I12) 10|77r12 97r17 149r18
+61a4 Map(47R9) 10|76r26 77r27 95r27 97r32
+X 10 display.adb
+24U14 Display_Update 31r21 73b14 99l8 99t22
+27K12 Display_Update_Timer[12|29] 155r7
+35I12 Width{natural} 42r20 61r32 181r32 195r29
+42a4 Bitmap(boolean) 93r10 165r16 165r36 166r19 167m13 167r30 172r16 173m10
+. 173r18 197m19
+45i4 Current_X{9|26I12} 76r31 77r32 80r10 81m10 89m10 89r23 93r18 95r32 97r37
+46i4 Current_Y{9|23I12} 76r42 77r43 83r13 84m13 86m13 86r26 93r29 95r43 97r48
+49U14 Clear 49>21 76s7 97s10 105b14 108l8 108t13 146s10
+49i21 Pin{9|29I12} 105b21 107r30
+52U14 Set 52>19 77s7 95s10 114b14 117l8 117t11 151s10
+52i19 Pin{9|29I12} 114b19 116r30
+55U14 Initialize 123b14 156l8 156t18 235s4
+58U14 Shift_Left 162b14 175l8 175t18 216s10
+61U14 Put_Char 61>24 62>24 181b14 202l8 202t16 211s7
+61i24 X_Org{35I12} 181b24 195r16 197r27
+62e24 C{character} 182b24 184r52
+65U14 Scroll_Character 65>32 208b14 219l8 219t24 230s10
+65e32 Char{character} 208b32 211r20
+125U17 Configure_GPIO 125>33 131b17 139l11 139t25 145s10 150s10
+125i33 Pin{9|29I12} 131b33 132r62
+132r10 CNF{17|438R9} 134r10 135r10 136r10 137r10 138r10
+144i11 Pin=144:18{9|29I12} 145r26 146r17
+149i11 Pin=149:18{9|29I12} 150r26 151r15
+165i11 X{integer} 167r21 167r38
+166i14 Y{integer} 167r24 167r45
+172i11 Y{integer} 173r35
+184i7 C_Index{integer} 187r10 196r26
+193i11 X{9|26I12} 195r24 196r46 197r35
+194i14 Y{9|23I12} 196r36 197r38
+215i11 Shifts{integer}
+229e11 Char=229:19{character} 230r28
+X 11 font5x5.ads
+18K9*Font5x5 10|19w6 19r26 11|494e12
+20A9*Glyph(14|45M9)<integer>
+22a4*Font(20A9) 10|187r25 196r20
+X 12 generic_timers.ads
+24b4 One_Shot{boolean} 10|28r7
+25a4 Timer_Name{string} 10|29r7
+26i4 Period{4|61I9} 10|30r7
+27U19 Action 10|31r7
+29k9*Generic_Timers 10|20w6 27r40 12|41e19
+33U14*Start 10|155s28[27]
+X 14 hal.ads
+34K9*HAL 10|17w6 17r26 14|166e8
+45M9*UInt5
+X 16 nrf51_svd.ads
+40K9*NRF51_SVD 10|18r6 18r26 16|43e14
+X 17 nrf51_svd-gpio.ads
+39K19*GPIO 10|18w16 18r36 17|514e19
+50n7*Low{47E9} 10|107r38
+52n7*High{47E9} 10|116r38
+59A9*OUT_PIN_Field_Array(47E9)<integer>
+72a13*Arr{59A9} 10|107m25 107r25 116m25 116r25
+359n7*Output{354E9} 10|134r23
+371n7*Disconnect{366E9} 10|135r23
+385n7*Pullup{378E9} 10|136r23
+396n7*S0S1{393E9} 10|137r23
+426n7*Disabled{423E9} 10|138r23
+438R9*PIN_CNF_Register 10|132r16 17|456e6
+440e7*DIR{354E9} 10|134m14
+442e7*INPUT{366E9} 10|135m14
+444e7*PULL{378E9} 10|136m14
+448e7*DRIVE{393E9} 10|137m14
+452e7*SENSE{423E9} 10|138m14
+471A9*PIN_CNF_Registers(438R9)<integer>
+481r7*OUT_k{63R9} 10|107m19 107r19 116m19 116r19
+495a7*PIN_CNF{471A9} 10|132m53
+511r4*GPIO_Periph{479R9} 10|107m7 107r7 116m7 116r7 132m41 132r41
+X 28 s-bbtime.ads
+46M9*Time
+81I9*Time_Span<long_long_integer>
+X 35 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 39 s-taskin.ads
+355V13*Get_Sec_Stack{35|46P9} 356i<c,__gnat_get_secondary_stack>22
+

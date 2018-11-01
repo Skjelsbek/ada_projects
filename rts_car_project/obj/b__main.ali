@@ -40,9 +40,9 @@ W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-D b__main.ads		20181101155132 086df76a ada_main%s
-D b__main.adb		20181101155132 df648a94 ada_main%b
-D system.ads		20181030114412 14907ac1 system%s
+D b__main.ads		20181101163222 086df76a ada_main%s
+D b__main.adb		20181101163222 df648a94 ada_main%b
+D system.ads		20180524194940 14907ac1 system%s
 D s-parame.ads		20180524194940 d106111e system.parameters%s
 D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
 D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s

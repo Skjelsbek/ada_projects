@@ -1,0 +1,26 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -g
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+
+U nrf51_svd%s		nrf51_svd.ads		714d4e7f NE OO PR PK IU
+W system%s		system.ads		system.ali
+
+D nrf51_svd.ads		20181101163446 65dd34be nrf51_svd%s
+D system.ads		20180524194940 14907ac1 system%s
+X 1 nrf51_svd.ads
+40K9*NRF51_SVD 43l5 43e14
+X 2 system.ads
+55K9*System 1|36w6 2|175e11
+
