@@ -1,15 +1,9 @@
 with MicroBit.Servos; use MicroBit;
 with MicroBit.IOs;
-package body Steering is
-      
-   
-   task type turn is
-      entry params(dir: in direction, deg: in degrees);      
-   end T;      
+package body Steering is                
    
    task body turn is   
    begin
-   loop
       accept params (dir: in direction, deg: in degrees) do
          case dir is
             when left =>
@@ -20,7 +14,6 @@ package body Steering is
                Servos.Go(servo_pin, center);
          end case;
       end params;
-   end loop; 
-   end T;
+   end turn;
 
 end servo_controller;

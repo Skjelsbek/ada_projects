@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\programming\ada_projects\task_test\task_test.gpr
+20181030093448
+[BOUND OBJECT FILES]
+D:\programming\ada_projects\task_test\obj\counter.o
+D:\programming\ada_projects\task_test\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\programming\ada_projects\task_test\obj\
+-LD:\programming\ada_projects\task_test\obj\
+-LD:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnarl.a
+D:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

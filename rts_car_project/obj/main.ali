@@ -2,7 +2,7 @@ V "GNAT Lib v2018"
 M P W=b
 A -O0
 A -gnatA
-A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\zfp-microbit\
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
 A -mlittle-endian
 A -mthumb
 A -mfloat-abi=soft
@@ -16,58 +16,79 @@ A -gnatQ
 A -gnatw.X
 A -ffunction-sections
 A -fdata-sections
-P CE NO ZX
+P DB LC TF  ZX
 
 RN
-RV NO_IO
+RV NO_DELAY
 RV NO_IMPLEMENTATION_PRAGMAS
-RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U main%b		main.adb		b5291d53 OO SE SU
+U main%b		main.adb		ffa3b583 NE OO SU
 W ada%s			ada.ads			ada.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
-W steering%s		steering.adb		steering.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W microbit%s		microbit.ads		microbit.ali
+W microbit.ios%s	microbit-ios.adb	microbit-ios.ali
 
 D ada.ads		20180524194940 76789da1 ada%s
+D a-reatim.ads		20180524194940 4c16970e ada.real_time%s
+D a-retide.ads		20180524194940 081cdaa4 ada.real_time.delays%s
 D a-tags.ads		20180524194940 2dde273c ada.tags%s
-D a-textio.ads		20180524194940 ffc84532 ada.text_io%s
-D hal.ads		20181011124726 2b42c80e hal%s
-D hal-gpio.ads		20181011124726 7f0c2ffe hal.gpio%s
-D hal-i2c.ads		20181011124726 0ed73138 hal.i2c%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
 D interfac.ads		20180524194940 5ab55268 interfaces%s
-D main.adb		20181025135502 105651c6 main%b
-D microbit.ads		20181011124726 4ce6a4c2 microbit%s
-D microbit-ios.ads	20181011124726 f7f319ec microbit.ios%s
-D microbit-servos.ads	20181011124726 c282b648 microbit.servos%s
-D nrf51.ads		20181011124726 548f0fe8 nrf51%s
-D nrf51-device.ads	20181011124726 183dcd1d nrf51.device%s
-D nrf51-gpio.ads	20181011124726 8e815cce nrf51.gpio%s
-D nrf51-rtc.ads		20181011124726 8c8bcaa7 nrf51.rtc%s
-D nrf51-timers.ads	20181011124726 6db9a45c nrf51.timers%s
-D nrf51-twi.ads		20181011124726 c6a4f1a2 nrf51.twi%s
-D nrf51_svd.ads		20181011124726 a764dc2d nrf51_svd%s
-D nrf51_svd-rtc.ads	20181011124726 7ec0736e nrf51_svd.rtc%s
-D nrf51_svd-timer.ads	20181011124726 31dae6f3 nrf51_svd.timer%s
-D nrf51_svd-twi.ads	20181011124726 87adf514 nrf51_svd.twi%s
-D steering.ads		20181025135306 5ab709a7 steering%s
-D system.ads		20181025135516 d6ae8d8f system%s
-D s-parame.ads		20180524194940 fe66c50d system.parameters%s
+D main.adb		20181101155132 44463b61 main%b
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D microbit-ios.ads	20180927154656 f7f319ec microbit.ios%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-bb.ads		20180524194940 09e072ae system.bb%s
+D s-bbbopa.ads		20180524194940 c38c4695 system.bb.board_parameters%s
+D s-bbbosu.ads		20180524194940 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180524194940 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180524194940 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180524194940 5c6b58c0 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180524194940 b080d5b9 system.bb.parameters%s
+D s-bbthre.ads		20180524194940 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180524194940 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180524194940 ad086247 system.bb.time%s
+D s-multip.ads		20180524194940 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20180524194940 229b14dd system.os_interface%s
 D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
 D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
 X 1 ada.ads
-16K9*Ada 20e8 8|5r6 5r23
-X 3 a-textio.ads
-36K13*Text_IO 52e16 8|5w10 8r4
-46U14*Put_Line 8|8s12
-X 5 hal-gpio.ads
+16K9*Ada 20e8 9|7r6 7r25 9r18 11r20 11r42
+X 2 a-reatim.ads
+41K13*Real_Time 182e18 9|7w10 7r29 9r22 11r24 11r46
+51M9*Time<32|46M9> 9|9r32
+61I9*Time_Span<32|81I9>
+68V13*Clock{51M9}<32|134p13> 9|11s34
+72V14*"+"{51M9} 9|11s40
+128V13*Milliseconds{61I9} 9|11s56
+X 6 hal-gpio.ads
 47h9*GPIO_Point
-X 6 hal-i2c.ads
+X 7 hal-i2c.ads
 48h9*I2C_Port
-X 8 main.adb
-6U11*Main 6b11 10l5 10t9
-X 22 steering.ads
-3K9*Steering 8|4w6 8r21 8r46 22|13e13
-5E9*direction 8|8r30 22|5e35
-5n23*left{5E9} 8|8r55
+X 9 main.adb
+8U11*Main 8b11 21l5 21t9
+9m4 next_release{2|51M9} 11m4 13r16
+X 10 microbit.ads
+35K9*MicroBit 9|6r6 6r24 10|67e13
+X 11 microbit-ios.ads
+32K18*IOs 9|6w15 12r4 14r4 18r21 11|69e17
+50U14*Set 9|12s8 14s8
+53V13*Set{boolean} 9|18s25
+X 32 s-bbtime.ads
+46M9*Time
+81I9*Time_Span<long_long_integer>
 

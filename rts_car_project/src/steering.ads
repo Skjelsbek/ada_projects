@@ -5,7 +5,9 @@ package Steering is
    type direction is (left, right);
    type degrees is range 0 .. 45;
    
-   task type turn; 
+   task type turn is
+      entry params(dir: in direction; deg: in degrees);      
+   end turn;  
    
 private   
    servo_pin: constant Servos.Servo_Pin_Id := 2;
