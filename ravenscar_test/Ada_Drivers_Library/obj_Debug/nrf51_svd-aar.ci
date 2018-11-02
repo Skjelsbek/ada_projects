@@ -1,0 +1,15 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads"
+node: { title: "nrf51_svd__aar__aar_peripheralIP" label: "AAR_PERIPHERALIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:329:9\n16 bytes (static)" }
+edge: { sourcename: "nrf51_svd__aar__aar_peripheralIP" targetname: "nrf51_svd__aar__power_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:359:7" }
+edge: { sourcename: "nrf51_svd__aar__aar_peripheralIP" targetname: "nrf51_svd__aar__nirk_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:350:7" }
+edge: { sourcename: "nrf51_svd__aar__aar_peripheralIP" targetname: "nrf51_svd__aar__enable_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:348:7" }
+edge: { sourcename: "nrf51_svd__aar__aar_peripheralIP" targetname: "nrf51_svd__aar__intenclr_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:344:7" }
+edge: { sourcename: "nrf51_svd__aar__aar_peripheralIP" targetname: "nrf51_svd__aar__intenset_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:342:7" }
+node: { title: "nrf51_svd__aar__power_registerIP" label: "POWER_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:310:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__aar__nirk_registerIP" label: "NIRK_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:283:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__aar__enable_registerIP" label: "ENABLE_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:266:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__aar__status_registerIP" label: "STATUS_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:239:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__aar__intenclr_registerIP" label: "INTENCLR_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:214:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__aar__intenset_registerIP" label: "INTENSET_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:119:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__aar__enable_enable_fieldRP" label: "ENABLE_ENABLE_FIELDRP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-aar.ads:254:9\n16 bytes (static)" }
+}

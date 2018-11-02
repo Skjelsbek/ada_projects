@@ -1,0 +1,24 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb"
+node: { title: "nrf51__tasks__get_address__2" label: "Get_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.ads:59:13" shape : ellipse }
+node: { title: "nrf51__events__get_address__2" label: "Get_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-events.ads:65:13" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51__ppi__disable_group" label: "Disable_Group\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:111:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__disable_group" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:113:29" }
+node: { title: "nrf51__ppi__enable_group" label: "Enable_Group\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:102:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__enable_group" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:104:29" }
+node: { title: "nrf51__ppi__remove_from_group" label: "Remove_From_Group\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:90:4\n32 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__remove_from_group" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:95:23" }
+edge: { sourcename: "nrf51__ppi__remove_from_group" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:95:38" }
+node: { title: "nrf51__ppi__add_to_group" label: "Add_To_Group\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:78:4\n32 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__add_to_group" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:83:23" }
+edge: { sourcename: "nrf51__ppi__add_to_group" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:83:38" }
+node: { title: "nrf51__ppi__disable_channel" label: "Disable_Channel\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:67:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__disable_channel" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:70:12" }
+node: { title: "nrf51__ppi__enable_channel" label: "Enable_Channel\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:56:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__enable_channel" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:59:12" }
+node: { title: "nrf51__ppi__configure" label: "Configure\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:42:4\n32 bytes (static)" }
+edge: { sourcename: "nrf51__ppi__configure" targetname: "nrf51__tasks__get_address__2" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:49:35" }
+edge: { sourcename: "nrf51__ppi__configure" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:49:22" }
+edge: { sourcename: "nrf51__ppi__configure" targetname: "nrf51__events__get_address__2" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:48:35" }
+edge: { sourcename: "nrf51__ppi__configure" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-ppi.adb:48:22" }
+}

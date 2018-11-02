@@ -1,0 +1,24 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb"
+node: { title: "nrf51__tasks__trigger" label: "Trigger\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.ads:55:14" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51__clock__stop_low_freq" label: "Stop_Low_Freq\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:145:4\n8 bytes (static)" }
+edge: { sourcename: "nrf51__clock__stop_low_freq" targetname: "nrf51__tasks__trigger" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:147:12" }
+node: { title: "nrf51__clock__start_low_freq" label: "Start_Low_Freq\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:136:4\n8 bytes (static)" }
+edge: { sourcename: "nrf51__clock__start_low_freq" targetname: "nrf51__tasks__trigger" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:138:12" }
+node: { title: "nrf51__clock__low_freq_running" label: "Low_Freq_Running\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:127:4\n8 bytes (static)" }
+node: { title: "nrf51__clock__low_freq_source" label: "Low_Freq_Source\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:114:4\n8 bytes (static)" }
+edge: { sourcename: "nrf51__clock__low_freq_source" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:116:34" }
+node: { title: "nrf51__clock__set_low_freq_source" label: "Set_Low_Freq_Source\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:102:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__clock__set_low_freq_source" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:104:42" }
+node: { title: "nrf51__clock__stop_high_freq" label: "Stop_High_Freq\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:93:4\n8 bytes (static)" }
+edge: { sourcename: "nrf51__clock__stop_high_freq" targetname: "nrf51__tasks__trigger" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:95:12" }
+node: { title: "nrf51__clock__start_high_freq" label: "Start_High_Freq\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:84:4\n8 bytes (static)" }
+edge: { sourcename: "nrf51__clock__start_high_freq" targetname: "nrf51__tasks__trigger" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:86:12" }
+node: { title: "nrf51__clock__high_freq_running" label: "High_Freq_Running\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:75:4\n8 bytes (static)" }
+node: { title: "nrf51__clock__high_freq_source" label: "High_Freq_Source\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:63:4\n8 bytes (static)" }
+edge: { sourcename: "nrf51__clock__high_freq_source" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:65:34" }
+node: { title: "nrf51__clock__set_high_freq_source" label: "Set_High_Freq_Source\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:52:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__clock__set_high_freq_source" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:54:43" }
+node: { title: "nrf51__clock__set_high_freq_external_frequency" label: "Set_High_Freq_External_Frequency\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:41:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__clock__set_high_freq_external_frequency" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-clock.adb:43:47" }
+}

@@ -1,0 +1,89 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U microbit.accelerometer%b  microbit-accelerometer.adb  02e31223 OO PK
+W microbit%s		microbit.ads		microbit.ali
+W microbit.i2c%s	microbit-i2c.adb	microbit-i2c.ali  AD
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U microbit.accelerometer%s  microbit-accelerometer.ads  97b1291b EE NE OO PK
+W microbit%s		microbit.ads		microbit.ali
+W mma8653%s		mma8653.adb		mma8653.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D microbit-accelerometer.ads  20180927154656 243a93d2 microbit.accelerometer%s
+D microbit-accelerometer.adb  20180927154656 ecd57aff microbit.accelerometer%b
+D microbit-i2c.ads	20180927154656 ca0cfb0e microbit.i2c%s
+D mma8653.ads		20180927154656 ff6d1e0b mma8653%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 5 hal-gpio.ads
+47h9*GPIO_Point
+X 6 hal-i2c.ads
+48h9*I2C_Port
+50P9*Any_I2C_Port(48R9)
+X 8 microbit.ads
+35K9*MicroBit 67e13 9|34r9 46r5 10|32r6 34r14 37r47 52r14 53r10 70r5
+X 9 microbit-accelerometer.ads
+34K18*Accelerometer 8|35k9 9|46l14 46e27 10|34b23 70l14 70t27
+36V13*Initialized{boolean} 40s19 44s18 10|43b13
+39U14*Initialize 10|50b14 61l8 61t18
+43V13*Data{12|58R9} 10|67b13
+X 10 microbit-accelerometer.adb
+36b4 Init_Done{boolean} 44r8 60m7
+37r4 Acc{12|39R9} 56m7 56r7 68r8
+X 11 microbit-i2c.ads
+34K18*I2C 10|32w15 37r56 52r23 53r19 11|51e17
+38V13*Initialized{boolean} 10|52s27
+41U14*Initialize 10|53s23
+48V13*Controller{6|50P9} 10|37s60
+X 12 mma8653.ads
+37K9*MMA8653 9|32w6 43r25 10|37r16 56r22 57r22 58r22 67r25 12|144e12
+39R9*MMA8653_Accelerometer 10|37r24 12|66e17
+43n31*High_Resolution{42E9} 10|57r30 58r30
+45n27*Two_G{45E9} 10|56r30
+47U14*Configure 10|56s11
+58R9*All_Axes_Data 9|43r33 10|67r33 12|60e14
+62V13*Read_Data{58R9} 10|68s12
+

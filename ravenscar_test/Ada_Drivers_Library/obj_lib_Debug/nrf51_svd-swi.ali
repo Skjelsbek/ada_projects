@@ -1,0 +1,52 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U nrf51_svd.swi%s	nrf51_svd-swi.ads	eb9966db NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W system%s		system.ads		system.ali
+
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-swi.ads	20180927154656 732f0839 nrf51_svd.swi%s
+D system.ads		20181030114412 14907ac1 system%s
+X 1 hal.ads
+34K9*HAL 166e8 4|36w6 53r24
+97M9*UInt32<2|74M9> 4|53r28
+X 2 interfac.ads
+74M9*Unsigned_32
+X 3 nrf51_svd.ads
+40K9*NRF51_SVD 114e14 4|39r9 65r5
+X 4 nrf51_svd-swi.ads
+39K19*SWI 3|40k9 4|65l15 65e18
+51R9*SWI_Peripheral 55e6 57r8 62r25
+53m7*UNUSED{1|97M9} 58r7
+62r4*SWI_Periph{51R9}
+X 5 system.ads
+55K9*System 4|37w6 63r30 5|175e11
+85M9*Address 4|63r30
+

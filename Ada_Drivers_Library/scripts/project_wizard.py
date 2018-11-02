@@ -103,7 +103,7 @@ def linker_script_config(config):
             config.query_enum_key('Linker_BSS_Section', config.memory_names(),
                                   default=config.default_ram_area())
 
-        print "\nLinker script:"
+        print("\nLinker script:")
         config.print_linker_script()
 
 
@@ -172,8 +172,8 @@ def ADL_configuration(config, project_directory, project_name,
     middleware_config(config)
     components_config(config)
 
-    print "The configuration is now finished."
-    print "Let's generate some files:"
+    print ("The configuration is now finished.")
+    print ("Let's generate some files:")
 
     relative_ADL_root_path = os.path.relpath(ADL_root_dir, project_directory)
     source_dir = os.path.join(project_directory, source_dir_name)
@@ -246,12 +246,12 @@ def ADL_configuration(config, project_directory, project_name,
 
     gpr += config.gpr_configuration(relative_ADL_root_path, source_dir_name)
     gpr += "end %s;\n" % project_name
-    print " -> Writing gprbuild project file."
+    print (" -> Writing gprbuild project file.")
     with open(gpr_path, "w") as f:
         f.write(gpr)
 
     # Ada config package
-    print " -> Writing the Ada configuration file."
+    print (" -> Writing the Ada configuration file.")
 
     ensure_dir(source_dir)
 
@@ -265,7 +265,7 @@ def ADL_configuration(config, project_directory, project_name,
 
     config.print_remaining_pre_defined()
 
-    print "Your Ada Drivers Library project is now ready to use."
+    print ("Your Ada Drivers Library project is now ready to use.")
 
 
 description = \
@@ -331,7 +331,7 @@ parser.add_argument("-o", "--object-dir",
 
 args = parser.parse_args()
 
-print description
+print (description)
 
 interactive = not args.script_mode
 use_default = not args.dont_use_defaults
@@ -347,8 +347,8 @@ if args.input_config is not None:
 if args.definitions is not None:
     for d in args.definitions:
         key, value = d.partition("=")[::2]
-        print "Add pre definition '%s' => '%s' from command line" % \
-            (key, value)
+        print("Add pre definition '%s' => '%s' from command line" % \
+            (key, value))
 
         ADL_config.pre_define(key, value, "command line")
 

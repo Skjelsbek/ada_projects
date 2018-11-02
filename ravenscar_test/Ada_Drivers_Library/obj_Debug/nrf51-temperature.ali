@@ -1,0 +1,65 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_FIXED_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U nrf51.temperature%b	nrf51-temperature.adb	9fd8db44 NE OO PK
+W hal%s			hal.ads			hal.ali
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W nrf51_svd.temp%s	nrf51_svd-temp.ads	nrf51_svd-temp.ali
+
+U nrf51.temperature%s	nrf51-temperature.ads	57595bd7 EE NE OO PK
+W nrf51%s		nrf51.ads		nrf51.ali
+
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-temperature.ads	20180927154656 03d6543f nrf51.temperature%s
+D nrf51-temperature.adb	20180927154656 61e2f8fb nrf51.temperature%b
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-temp.ads	20180927154656 d6aebf8e nrf51_svd.temp%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+X 1 hal.ads
+34K9*HAL 166e8 5|33w6 33r26
+97M9*UInt32<2|74M9>
+X 2 interfac.ads
+74M9*Unsigned_32
+X 3 nrf51.ads
+34K9*nRF51 43e10 4|32r9 39r5 5|35r14 62r5
+X 4 nrf51-temperature.ads
+32K15*Temperature 3|34k9 4|39l11 39e22 5|35b20 62l11 62t22
+34O9*Temp_Celcius 37r25 5|38r6 38r34 44r25 59r14
+37V13*Read{34O9} 5|44b13 60l8 60t12
+X 5 nrf51-temperature.adb
+37O9 RAW_Temp 45r13 58r14
+45o7 Raw{37O9} 58m7 59r28
+X 6 nrf51_svd.ads
+40K9*NRF51_SVD 5|32r6 32r26 6|114e14
+X 7 nrf51_svd-temp.ads
+39K19*TEMP 5|32w16 32r36 7|190e19
+160m7*TASKS_START{1|97M9} 5|52m19
+164m7*EVENTS_DATARDY{1|97M9} 5|49m19 54r25
+170m7*TEMP{1|97M9} 5|58r36
+187r4*TEMP_Periph{158R9} 5|49m7 52m7 54r13 58r24
+

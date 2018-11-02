@@ -1,12 +1,11 @@
-with MicroBit.IOs;
 with Ada.Real_Time; use Ada.Real_Time;
-
+with MicroBit.IOs; use MicroBit;
 procedure Main is
-   test: constant MicroBit.IOs.Pin_Id := 1;
-   next_release: Ada.Real_Time.Time;
+   release_time: Time;
 begin
-   next_release := Ada.Real_Time.Clock + Ada.Real_Time.Milliseconds(10);
-   MicroBit.IOs.Set(test, True);
-   delay until next_release;
-   MicroBit.IOs.Set(test, False);
+   release_time := Clock + Microseconds(10);
+   IOs.set(0, True);
+   delay until release_time;
+   IOs.set(0, False);
+   null;
 end Main;

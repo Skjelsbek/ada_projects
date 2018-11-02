@@ -71,7 +71,7 @@ class Enum_Validation:
         self.list_of_values = list_of_values
 
     def __call__(self, value):
-        return isinstance(value, basestring) and value in self.list_of_values
+        return isinstance(value, str) and value in self.list_of_values
 
     def kind(self):
         return "enum"
@@ -83,7 +83,7 @@ class Enum_Validation:
 class String_Validation:
 
     def __call__(self, value):
-        return isinstance(value, basestring)
+        return isinstance(value, str)
 
     def kind(self):
         return "string"
@@ -95,7 +95,7 @@ class String_Validation:
 class Bool_Validation:
 
     def __call__(self, value):
-        return isinstance(value, basestring) and value in {"yes": 'y',
+        return isinstance(value, str) and value in {"yes": 'y',
                                                            "y": 'y',
                                                            "ye": 'y',
                                                            "True": 'y',

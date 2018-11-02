@@ -1,0 +1,16 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb"
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nD:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "nrf51__twi__enable" label: "Enable\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-twi.ads:44:14" shape : ellipse }
+node: { title: "nrf51__twi__configure" label: "Configure\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-twi.ads:50:14" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "microbit__i2c__controller" label: "Controller\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:69:4\n8 bytes (static)" }
+node: { title: "microbit__i2c__initialize" label: "Initialize\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:50:4\n32 bytes (static)" }
+edge: { sourcename: "microbit__i2c__initialize" targetname: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:microbit__i2c__initialize___postconditions.4258" label: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:63:8" }
+edge: { sourcename: "microbit__i2c__initialize" targetname: "nrf51__twi__enable" label: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:61:25" }
+edge: { sourcename: "microbit__i2c__initialize" targetname: "nrf51__twi__configure" label: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:52:25" }
+edge: { sourcename: "microbit__i2c__initialize" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:55:25" }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:microbit__i2c__initialize___postconditions.4258" label: "Initialize\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:50:4\n24 bytes (static)" }
+edge: { sourcename: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:microbit__i2c__initialize___postconditions.4258" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.ads:42:19" }
+edge: { sourcename: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:microbit__i2c__initialize___postconditions.4258" targetname: "microbit__i2c__initialized" label: "D:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.ads:42:19" }
+node: { title: "microbit__i2c__initialized" label: "Initialized\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-i2c.adb:43:4\n8 bytes (static)" }
+}

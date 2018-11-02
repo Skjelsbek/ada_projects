@@ -1,0 +1,15 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb"
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "cortex_m__nvic__clear_pending" label: "Clear_Pending\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:125:4\n16 bytes (static)" }
+node: { title: "cortex_m__nvic__set_pending" label: "Set_Pending\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:116:4\n16 bytes (static)" }
+node: { title: "cortex_m__nvic__pending" label: "Pending\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:107:4\n16 bytes (static)" }
+node: { title: "cortex_m__nvic__enabled" label: "Enabled\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:98:4\n16 bytes (static)" }
+node: { title: "cortex_m__nvic__disable" label: "Disable\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:89:4\n16 bytes (static)" }
+node: { title: "cortex_m__nvic__enable" label: "Enable\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:80:4\n16 bytes (static)" }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:cortex_m__nvic__set_priority__as_arrayIP.4241" label: "As_Arrayip\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:55:12\n40 bytes (static)" }
+node: { title: "cortex_m__nvic__set_priority" label: "Set_Priority\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:51:4\n40 bytes (static)" }
+edge: { sourcename: "cortex_m__nvic__set_priority" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:73:18" }
+edge: { sourcename: "cortex_m__nvic__set_priority" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:71:10" }
+edge: { sourcename: "cortex_m__nvic__set_priority" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:69:29" }
+edge: { sourcename: "cortex_m__nvic__set_priority" targetname: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:cortex_m__nvic__set_priority__as_arrayIP.4241" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\cortex_m\src\nvic_cm0\cortex_m-nvic.adb:66:7" }
+}

@@ -1,0 +1,26 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb"
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__push__2" label: "Push\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:48:14" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__push__3" label: "Push\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:51:14" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__push_uuid" label: "Push_Uuid\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:60:14" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__push" label: "Push\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:45:14" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__push__5" label: "Push\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:57:14" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__set_header" label: "Set_Header\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:42:14" shape : ellipse }
+node: { title: "bluetooth_low_energy__packets__ble_packetIP" label: "Ble_Packetip\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-packets.ads:74:9" shape : ellipse }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:_GLOBAL__SZ7_bluetooth_low_energy__beacon" label: "Beacon\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy.ads:62:51\n24 bytes (static)" }
+node: { title: "bluetooth_low_energy__beacon__make_beacon_packet" label: "Make_Beacon_Packet\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:35:4\n88 bytes (static)" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "memcpy" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push__2" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:65:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push__3" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:63:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push__3" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:61:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push_uuid" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:59:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push__5" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:57:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:55:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:53:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:51:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:49:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:47:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__push__5" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:45:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__set_header" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:43:7" }
+edge: { sourcename: "bluetooth_low_energy__beacon__make_beacon_packet" targetname: "bluetooth_low_energy__packets__ble_packetIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\BLE\bluetooth_low_energy-beacon.adb:41:7" }
+}

@@ -1,0 +1,45 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb"
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nD:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "nrf51_svd__radio__txpower_txpower_fieldRP" label: "TXPOWER_TXPOWER_FIELDRP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-radio.ads:816:9" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51_svd__radio__state_state_fieldRP" label: "STATE_STATE_FIELDRP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-radio.ads:1277:9" shape : ellipse }
+node: { title: "nrf51__radio__configure_packet" label: "Configure_Packet\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:300:4\n24 bytes (static)" }
+node: { title: "nrf51__radio__configure_whitening" label: "Configure_Whitening\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:287:4\n16 bytes (static)" }
+node: { title: "nrf51__radio__crc_error" label: "Crc_Error\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:278:4\n8 bytes (static)" }
+node: { title: "nrf51__radio__configure_crc" label: "Configure_Crc\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:247:4\n32 bytes (static)" }
+edge: { sourcename: "nrf51__radio__configure_crc" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:255:15" }
+edge: { sourcename: "nrf51__radio__configure_crc" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.ads:151:19" }
+node: { title: "nrf51__radio__set_rx_addresses" label: "Set_Rx_Addresses\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:235:4\n32 bytes (static)" }
+node: { title: "nrf51__radio__rx_match_address" label: "Rx_Match_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:226:4\n8 bytes (static)" }
+node: { title: "nrf51__radio__set_tx_address" label: "Set_Tx_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:217:4\n16 bytes (static)" }
+node: { title: "nrf51__radio__translate_logic_address" label: "Translate_Logic_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:194:4\n32 bytes (static)" }
+edge: { sourcename: "nrf51__radio__translate_logic_address" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:209:43" }
+edge: { sourcename: "nrf51__radio__translate_logic_address" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:207:43" }
+edge: { sourcename: "nrf51__radio__translate_logic_address" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:205:12" }
+edge: { sourcename: "nrf51__radio__translate_logic_address" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:199:12" }
+node: { title: "nrf51__radio__set_logic_addresses" label: "Set_Logic_Addresses\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:177:4\n24 bytes (static)" }
+node: { title: "nrf51__radio__set_mode" label: "Set_Mode\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:164:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__set_mode" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:166:39" }
+node: { title: "nrf51__radio__set_power" label: "Set_Power\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:154:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__set_power" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:157:30" }
+edge: { sourcename: "nrf51__radio__set_power" targetname: "nrf51_svd__radio__txpower_txpower_fieldRP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:157:30" }
+node: { title: "nrf51__radio__set_frequency" label: "Set_Frequency\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:144:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__set_frequency" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:147:9" }
+edge: { sourcename: "nrf51__radio__set_frequency" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:147:9" }
+node: { title: "nrf51__radio__set_packet" label: "Set_Packet\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:133:4\n24 bytes (static)" }
+node: { title: "nrf51__radio__disable_shortcut" label: "Disable_Shortcut\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:109:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__disable_shortcut" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:111:12" }
+node: { title: "nrf51__radio__enable_shortcut" label: "Enable_Shortcut\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:85:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__enable_shortcut" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:87:12" }
+node: { title: "nrf51__radio__state" label: "State\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:65:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__state" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:68:30" }
+edge: { sourcename: "nrf51__radio__state" targetname: "nrf51_svd__radio__state_state_fieldRP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:68:30" }
+node: { title: "nrf51__radio__setup_for_bluetooth_low_energy" label: "Setup_For_Bluetooth_Low_Energy\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:41:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__radio__setup_for_bluetooth_low_energy" targetname: "nrf51__radio__configure_whitening" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:58:7" }
+edge: { sourcename: "nrf51__radio__setup_for_bluetooth_low_energy" targetname: "nrf51__radio__configure_crc" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:52:7" }
+edge: { sourcename: "nrf51__radio__setup_for_bluetooth_low_energy" targetname: "nrf51__radio__configure_packet" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:45:7" }
+edge: { sourcename: "nrf51__radio__setup_for_bluetooth_low_energy" targetname: "nrf51__radio__set_mode" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.adb:43:7" }
+node: { title: "nrf51__radio__Tlogic_address_maskBIP" label: "Tlogic_Address_Maskbip\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.ads:120:4\n16 bytes (static)" }
+node: { title: "nrf51__radio__radio_powerRP" label: "Radio_Powerrp\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.ads:76:9\n16 bytes (static)" }
+node: { title: "nrf51__radio__radio_stateRP" label: "Radio_Staterp\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-radio.ads:52:9\n16 bytes (static)" }
+}

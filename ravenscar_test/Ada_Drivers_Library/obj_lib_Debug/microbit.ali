@@ -1,0 +1,113 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U microbit%s		microbit.ads		da5a3511 NE OO PK
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51.device%s	nrf51-device.ads	nrf51-device.ali
+W nrf51.gpio%s		nrf51-gpio.adb		nrf51-gpio.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 4 hal-gpio.ads
+47h9*GPIO_Point
+X 5 hal-i2c.ads
+48h9*I2C_Port
+X 7 microbit.ads
+35K9*MicroBit 67l5 67e13
+39r4*MB_P0=39:57{10|66R9}
+40r4*MB_P1=40:57{10|66R9}
+41r4*MB_P2=41:57{10|66R9}
+42r4*MB_P3=42:57{10|66R9}
+43r4*MB_P4=43:57{10|66R9}
+44r4*MB_P5=44:57{10|66R9}
+45r4*MB_P6=45:57{10|66R9}
+46r4*MB_P7=46:57{10|66R9}
+47r4*MB_P8=47:57{10|66R9}
+48r4*MB_P9=48:57{10|66R9}
+49r4*MB_P10=49:57{10|66R9}
+50r4*MB_P11=50:57{10|66R9}
+51r4*MB_P12=51:57{10|66R9}
+52r4*MB_P13=52:57{10|66R9} 59r44
+53r4*MB_P14=53:57{10|66R9} 60r44
+54r4*MB_P15=54:57{10|66R9} 61r44
+55r4*MB_P16=55:57{10|66R9}
+56r4*MB_P19=56:57{10|66R9} 63r44
+57r4*MB_P20=57:57{10|66R9} 64r44
+59r4*MB_SCK=59:44{10|66R9}
+60r4*MB_MISO=60:44{10|66R9}
+61r4*MB_MOSI=61:44{10|66R9}
+63r4*MB_SCL=63:44{10|66R9}
+64r4*MB_SDA=64:44{10|66R9}
+X 8 nrf51.ads
+34K9*nRF51 7|32r6 33r6 39r14 39r44 40r14 40r44 41r14 41r44 42r14 42r44 43r14
+. 43r44 44r14 44r44 45r14 45r44 46r14 46r44 47r14 47r44 48r14 48r44 49r14
+. 49r44 50r14 50r44 51r14 51r44 52r14 52r44 53r14 53r44 54r14 54r44 55r14
+. 55r44 56r14 56r44 57r14 57r44 59r14 60r14 61r14 63r14 64r14 8|43e10
+X 9 nrf51-device.ads
+41K15*Device 7|32w12 39r50 40r50 41r50 42r50 43r50 44r50 45r50 46r50 47r50
+. 48r50 49r50 50r50 51r50 52r50 53r50 54r50 55r50 56r50 57r50 9|86e17
+43r4*P00{10|66R9} 7|56r57
+44r4*P01{10|66R9} 7|41r57
+45r4*P02{10|66R9} 7|40r57
+46r4*P03{10|66R9} 7|39r57
+47r4*P04{10|66R9} 7|42r57
+48r4*P05{10|66R9} 7|43r57
+49r4*P06{10|66R9} 7|49r57
+53r4*P10{10|66R9} 7|48r57
+54r4*P11{10|66R9} 7|46r57
+55r4*P12{10|66R9} 7|45r57
+59r4*P16{10|66R9} 7|55r57
+60r4*P17{10|66R9} 7|44r57
+61r4*P18{10|66R9} 7|47r57
+63r4*P20{10|66R9} 7|51r57
+64r4*P21{10|66R9} 7|54r57
+65r4*P22{10|66R9} 7|53r57
+66r4*P23{10|66R9} 7|52r57
+69r4*P26{10|66R9} 7|50r57
+73r4*P30{10|66R9} 7|57r57
+X 10 nrf51-gpio.ads
+34K15*GPIO 7|33w12 39r20 40r20 41r20 42r20 43r20 44r20 45r20 46r20 47r20
+. 48r20 49r20 50r20 51r20 52r20 53r20 54r20 55r20 56r20 57r20 59r20 60r20
+. 61r20 63r20 64r20 10|122e15
+66R9*GPIO_Point<4|47R9> 7|39r25 40r25 41r25 42r25 43r25 44r25 45r25 46r25
+. 47r25 48r25 49r25 50r25 51r25 52r25 53r25 54r25 55r25 56r25 57r25 59r25
+. 60r25 61r25 63r25 64r25 10|68e14
+

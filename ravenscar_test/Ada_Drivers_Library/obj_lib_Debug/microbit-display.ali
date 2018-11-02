@@ -1,0 +1,185 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U microbit.display%b	microbit-display.adb	6cb607d0 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W microbit%s		microbit.ads		microbit.ali
+W microbit.time%s	microbit-time.adb	microbit-time.ali  AD
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51.device%s	nrf51-device.ads	nrf51-device.ali
+W nrf51.gpio%s		nrf51-gpio.adb		nrf51-gpio.ali  AD
+W system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+W system.machine_code%s	s-maccod.ads		s-maccod.ali
+
+U microbit.display%s	microbit-display.ads	38b3c9b6 EE NE OO PK
+W microbit%s		microbit.ads		microbit.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
+D hal-time.ads		20180927154656 f5295cd7 hal.time%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D microbit-display.ads	20180927154656 74556d74 microbit.display%s
+D microbit-display.adb	20180927154656 a3c915be microbit.display%b
+D microbit-time.ads	20180927154656 6bbc81c6 microbit.time%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-maccod.ads		20180524194940 6d68a701 system.machine_code%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 3 hal.ads
+34K9*HAL 166e8 10|32w6 32r32
+45M9*UInt5 10|110r36
+X 4 hal-gpio.ads
+47h9*GPIO_Point
+X 5 hal-i2c.ads
+48h9*I2C_Port
+X 6 hal-time.ads
+34h9*Delays
+X 8 microbit.ads
+35K9*MicroBit 67e13 9|32r9 69r5 10|35r6 35r32 38r14 814r5
+X 9 microbit-display.ads
+32K18*Display 8|35k9 9|69l14 69e21 10|38b23 814l14 814t21
+34I12*Coord{natural} 36r26 39r28 10|52r6 52r21 52r35 54r27 59r27 80r26 80r33
+. 603r16 604r19 653r22 654r23 656r25 657r26 697r35 719r26 728r28 774r26
+36U14*Set 36>19 36>22 10|719b14 722l8 722t11
+36i19 X{34I12} 10|719b19 721r15
+36i22 Y{34I12} 10|719b22 721r18
+39U14*Clear 39>21 39>24 10|728b14 731l8 731t13
+39i21 X{34I12} 10|728b21 730r15
+39i24 Y{34I12} 10|728b24 730r18
+42U14*Clear 10|737b14 740l8 740t13
+45U14*Display 45>23 10|746b14 749l8 749t15
+45e23 C{character} 10|746b23 748r19
+48N4*Scroll_Text_Max_Length 52r32 56r32 10|93r38
+51U14*Display 51>23 10|755b14 762l8 762t15
+51a23 Str{string} 52r18 10|755b23 757r22
+55U14*Display_Async 55>29 10|757s7 768b14 775l8 775t21
+55a29 Str{string} 56r18 10|768b29 770r82 770r102 772r29
+60U14*Shift_Left 10|694s13 781b14 794l8 794t18
+63U14*Set_Animation_Step_Duration 63>43 10|800b14 803l8 803t35
+63i43 Ms{natural} 10|800b43 802r37
+66V13*Animation_In_Progress{boolean} 10|809b13
+X 10 microbit-display.adb
+40E9 Animation_Mode 40e46 48r22
+40n28 None{40E9} 48r40 691r15 703r38 758r32 810r27
+40n34 Scroll_Text{40E9} 693r15 771r26
+42i4 Animation_Step_Duration_Ms{natural} 676r30 802m7
+45i4 Animation_Elapsed{natural} 676r10 677m10 680m10 680r31
+48e4 Animation_State{40E9} 690r12 703m19 758r13 771m7 810r8
+51I12 Width{natural} 54r20 584r31 594r31 605r29
+54a4 Bitmap(boolean) 607m19 667r10 721m7 730m7 739m7 784r16 784r36 785r19
+. 786m13 786r30 791r16 792m10 792r18
+59i4 Current_X{9|34I12} 649r24 651r27 653r10 654m10 662m10 662r23 667r18
+. 669r27 671r30
+59i15 Current_Y{9|34I12} 649r35 651r38 656r13 657m13 659m13 659r26 667r29
+. 669r38 671r41
+66I12 Row_Range{natural} 70r19 74r24
+67I12 Column_Range{natural} 71r19 77r27
+69R9 LED_Point 72e14 80r43
+70i7*Row_Id{66I12} 649r46 669r49
+71i7*Column_Id{67I12} 651r49 671r52
+74a4 Row_Points(14|66R9) 624m20 624r20 649m7 649r7 669m10 669r10
+77a4 Column_Points(14|66R9) 629m20 629r20 651m7 651r7 671m10 671r10
+80a4 Map(69R9) 649r19 651r22 669r22 671r25
+93a4 Scroll_Text_Buffer{string} 708r31 770m7 770r27 770r55 773r28
+97i4 Scroll_Text_Length{natural} 702r39 704r42 772m7
+100i4 Scroll_Text_Index{natural} 702r19 704r22 708r51 710m16 710r37 773m7
+103i4 Scroll_Position{natural} 696m13 696r32 697r16 700m16 774m7
+110A9 Glyph(3|45M9)<integer> 111r39
+111a4 Font(110A9) 599r25 606r20
+584U14 Print_C 584>23 585>23 594b14 612l8 612t15 708s19 748s7
+584i23 X_Org{51I12} 594b23 605r16 607r27
+585e23 C{character} 595b23 597r52
+586U14 Initialize 618b14 637l8 637t18 813s4
+587U14 Tick_Handler 634r30 643b14 682l8 682t20
+588U14 Update_Animation 678s10 688b14 713l8 713t24
+597i7 C_Index{integer} 599r10 606r26
+603i11 X{9|34I12} 605r24 606r46 607r35
+604i14 Y{9|34I12} 606r36 607r38
+619r7 Conf{14|58R9} 621m7 622m7 625r30 630r30
+624r11 Point=624:20{14|66R9} 625r10 626r10
+629r11 Point=629:20{14|66R9} 630r10 631r10
+784i11 X{integer} 786r21 786r38
+785i14 Y{integer} 786r24 786r45
+791i11 Y{integer} 792r35
+X 11 microbit-time.ads
+35K18*Time 10|35w15 35r41 11|81e18
+52V13*Tick_Subscribe{boolean} 10|634s14
+X 12 nrf51.ads
+34K9*nRF51 10|33r6 33r32 34r6 34r32 12|43e10
+X 13 nrf51-device.ads
+41K15*Device 10|34w12 34r38 13|86e17
+47r4*P04{14|66R9} 10|78r7
+48r4*P05{14|66R9} 10|78r12
+49r4*P06{14|66R9} 10|78r17
+50r4*P07{14|66R9} 10|78r22
+51r4*P08{14|66R9} 10|78r27
+52r4*P09{14|66R9} 10|78r32
+53r4*P10{14|66R9} 10|78r37
+54r4*P11{14|66R9} 10|78r42
+55r4*P12{14|66R9} 10|78r47
+56r4*P13{14|66R9} 10|75r7
+57r4*P14{14|66R9} 10|75r12
+58r4*P15{14|66R9} 10|75r17
+X 14 nrf51-gpio.ads
+34K15*GPIO 10|33w12 33r38 14|122e15
+38n35*Mode_Out{38E9} 10|621r25
+40n27*Pull_Up{40E9} 10|622r25
+58R9*GPIO_Configuration 10|619r14 14|64e14
+59e7*Mode{38E9} 10|621m12
+60e7*Resistors{40E9} 10|622m12
+66R9*GPIO_Point<4|47R9> 10|74r38 77r44 14|68e14
+100U14*Set<4|88p14> 10|631s16 651s60 669s57
+106U14*Clear<4|90p14> 10|626s16 649s54 671s63
+117U14*Configure_IO 10|625s16 630s16
+X 22 system.ads
+55K9*System 10|36r6 36r32 22|175e11
+X 24 s-maccod.ads
+36K16*Machine_Code 10|36w13 36r39 24|131e24
+83U14*Asm 10|759s10
+84a6 Template{string} 10|759r15
+88b6 Volatile{boolean} 10|760r15
+

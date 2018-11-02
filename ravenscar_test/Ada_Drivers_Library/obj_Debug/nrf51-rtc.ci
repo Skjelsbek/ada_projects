@@ -1,0 +1,16 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb"
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51__rtc__disable_event" label: "Disable_Event\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:152:4\n40 bytes (static)" }
+edge: { sourcename: "nrf51__rtc__disable_event" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:157:12" }
+node: { title: "nrf51__rtc__enable_event" label: "Enable_Event\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:127:4\n40 bytes (static)" }
+edge: { sourcename: "nrf51__rtc__enable_event" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:132:12" }
+node: { title: "nrf51__rtc__event" label: "Event\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:101:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__rtc__event" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:107:12" }
+node: { title: "nrf51__rtc__set_compare" label: "Set_Compare\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:88:4\n24 bytes (static)" }
+node: { title: "nrf51__rtc__counter" label: "Counter\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:79:4\n16 bytes (static)" }
+node: { title: "nrf51__rtc__set_prescaler" label: "Set_Prescaler\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:67:4\n16 bytes (static)" }
+node: { title: "nrf51__rtc__clear" label: "Clear\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:58:4\n16 bytes (static)" }
+node: { title: "nrf51__rtc__stop" label: "Stop\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:49:4\n16 bytes (static)" }
+node: { title: "nrf51__rtc__start" label: "Start\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.adb:40:4\n16 bytes (static)" }
+node: { title: "nrf51__rtc__real_time_counterIP" label: "Real_Time_Counterip\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-rtc.ads:65:9\n16 bytes (static)" }
+}

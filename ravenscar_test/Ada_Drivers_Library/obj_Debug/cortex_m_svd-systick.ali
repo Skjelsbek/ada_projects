@@ -1,0 +1,96 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U cortex_m_svd.systick%s  cortex_m_svd-systick.ads  48cac182 NE OO PR PK
+W cortex_m_svd%s	cortex_m_svd.ads	cortex_m_svd.ali
+W hal%s			hal.ads			hal.ali
+W system%s		system.ads		system.ali
+
+D cortex_m_svd.ads	20180927154656 f67d36db cortex_m_svd%s
+D cortex_m_svd-systick.ads  20180927154656 81654596 cortex_m_svd.systick%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20181030114412 14907ac1 system%s
+X 1 cortex_m_svd.ads
+9K9*Cortex_M_SVD 27e17 2|11r9 57r44 59r45 62r25 191r5
+20m4*SysTick_Base{5|85M9} 2|189r30
+X 2 cortex_m_svd-systick.ads
+11K22*SysTick 1|9k9 2|57r57 59r58 62r38 191l18 191e25
+19E9*CSR_ENABLE_Field 25e6 26r8 57r24
+22n7*Disable{19E9} 27r7 57r65
+24n7*Enable{19E9} 28r7
+31E9*CSR_TICKINT_Field 37e6 38r8 59r24
+34n7*Enable{31E9} 39r7 59r66
+36n7*Disable{31E9} 40r7
+43E9*CSR_CLKSOURCE_Field 49e6 50r8 61r24
+46n7*External_Clk{43E9} 51r7 62r46
+48n7*Cpu_Clk{43E9} 52r7
+55R9*SYST_CSR_Register 70e6 73r8 170r23
+57e7*ENABLE{19E9} 74r7
+59e7*TICKINT{31E9} 75r7
+61e7*CLKSOURCE{43E9} 76r7
+64m7*Reserved_3_15{3|60M9} 77r7
+66b7*COUNTFLAG{boolean} 78r7
+68m7*Reserved_17_31{3|64M9} 79r7
+82M12*SYST_RVR_RELOAD_Field{3|81M9} 87r24
+85R9*SYST_RVR_Register 91e6 94r8 172r23
+87m7*RELOAD{82M12} 95r7
+89m7*Reserved_24_31{3|53M9} 96r7
+99M12*SYST_CVR_CURRENT_Field{3|81M9} 104r24
+102R9*SYST_CVR_Register 108e6 111r8 174r23
+104m7*CURRENT{99M12} 112r7
+106m7*Reserved_24_31{3|53M9} 113r7
+116M12*SYST_CALIB_TENMS_Field{3|81M9} 145r24
+119E9*CALIB_SKEW_Field 125e6 126r8 149r24
+122n7*Exact{119E9} 127r7
+124n7*Inexact{119E9} 128r7
+131E9*CALIB_NOREF_Field 137e6 138r8 151r24
+134n7*Ref_Clk_Available{131E9} 139r7
+136n7*Ref_Clk_Unavailable{131E9} 140r7
+143R9*SYST_CALIB_Register 153e6 156r8 176r23
+145m7*TENMS{116M12} 157r7
+147m7*Reserved_24_29{3|47M9} 158r7
+149e7*SKEW{119E9} 159r7
+151e7*NOREF{131E9} 160r7
+168R9*SysTick_Peripheral 178e6 180r8 188r29
+170r7*CSR{55R9} 181r7
+172r7*RVR{85R9} 182r7
+174r7*CVR{102R9} 183r7
+176r7*CALIB{143R9} 184r7
+188r4*SysTick_Periph{168R9}
+X 3 hal.ads
+34K9*HAL 2|7w6 64r24 68r24 82r37 89r24 99r38 106r24 116r38 147r24 3|166e8
+47M9*UInt6 2|147r28
+53M9*UInt8<4|63M9> 2|89r28 106r28
+60M9*UInt13 2|64r28
+64M9*UInt15 2|68r28
+81M9*UInt24 2|82r41 99r42 116r42
+X 4 interfac.ads
+63M9*Unsigned_8
+X 5 system.ads
+55K9*System 2|8w6 71r24 92r24 109r24 154r24 5|175e11
+85M9*Address
+109n41*Low_Order_First{109E9} 2|71r31 92r31 109r31 154r31
+

@@ -129,8 +129,8 @@ def load_board_config(config):
         config.pre_define('Device_Family', 'nRF51', origin)
         config.pre_define('Device_Name', 'nRF51822xxAA', origin)
         config.pre_define('Has_ZFP_Runtime', 'True', origin)
-        config.pre_define('Has_Ravenscar_SFP_Runtime', 'False', origin)
-        config.pre_define('Has_Ravenscar_Full_Runtime', 'False', origin)
+        config.pre_define('Has_Ravenscar_SFP_Runtime', 'True', origin)
+        config.pre_define('Has_Ravenscar_Full_Runtime', 'True', origin)
         config.pre_define('Runtime_Name_Suffix', 'microbit', origin)
         config.add_source_dir('boards/MicroBit/src/', origin)
 
@@ -150,4 +150,4 @@ def load_board_config(config):
         config.pre_define('Architecture', 'Native', origin)
         config.add_source_dir('boards/native/src/', origin)
     else:
-        print "Unknown board %s." % board
+        print ("Unknown board %s." % board)

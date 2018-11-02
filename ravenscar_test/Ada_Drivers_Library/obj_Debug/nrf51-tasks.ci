@@ -1,0 +1,7 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.adb"
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51__tasks__get_address__2" label: "Get_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.adb:61:4\n16 bytes (static)" }
+node: { title: "nrf51__tasks__get_address" label: "Get_Address\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.adb:52:4\n16 bytes (static)" }
+node: { title: "nrf51__tasks__trigger" label: "Trigger\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.adb:42:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__tasks__trigger" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.adb:43:25" }
+}

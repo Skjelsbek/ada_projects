@@ -1,0 +1,19 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads"
+node: { title: "nrf51_svd__clock__clock_peripheralIP" label: "CLOCK_PERIPHERALIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:557:9\n16 bytes (static)" }
+edge: { sourcename: "nrf51_svd__clock__clock_peripheralIP" targetname: "nrf51_svd__clock__xtalfreq_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:600:7" }
+edge: { sourcename: "nrf51_svd__clock__clock_peripheralIP" targetname: "nrf51_svd__clock__ctiv_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:598:7" }
+edge: { sourcename: "nrf51_svd__clock__clock_peripheralIP" targetname: "nrf51_svd__clock__lfclksrc_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:596:7" }
+edge: { sourcename: "nrf51_svd__clock__clock_peripheralIP" targetname: "nrf51_svd__clock__intenclr_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:583:7" }
+edge: { sourcename: "nrf51_svd__clock__clock_peripheralIP" targetname: "nrf51_svd__clock__intenset_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:581:7" }
+node: { title: "nrf51_svd__clock__xtalfreq_registerIP" label: "XTALFREQ_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:537:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__ctiv_registerIP" label: "CTIV_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:510:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__lfclksrc_registerIP" label: "LFCLKSRC_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:493:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__lfclksrccopy_registerIP" label: "LFCLKSRCCOPY_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:462:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__lfclkstat_registerIP" label: "LFCLKSTAT_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:426:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__lfclkrun_registerIP" label: "LFCLKRUN_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:382:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__hfclkstat_registerIP" label: "HFCLKSTAT_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:349:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__hfclkrun_registerIP" label: "HFCLKRUN_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:309:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__intenclr_registerIP" label: "INTENCLR_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:268:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__intenset_registerIP" label: "INTENSET_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:143:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__clock__xtalfreq_xtalfreq_fieldRP" label: "XTALFREQ_XTALFREQ_FIELDRP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-clock.ads:525:9\n16 bytes (static)" }
+}

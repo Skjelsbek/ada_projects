@@ -1,0 +1,21 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb"
+node: { title: "nrf51__tasks__trigger" label: "Trigger\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-tasks.ads:55:14" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51__adc__wait_for_result" label: "Wait_For_Result\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:160:4\n8 bytes (static)" }
+node: { title: "nrf51__adc__busy" label: "Busy\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:153:4\n8 bytes (static)" }
+node: { title: "nrf51__adc__start_vdd_conversion" label: "Start_Vdd_Conversion\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:127:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__adc__start_vdd_conversion" targetname: "nrf51__tasks__trigger" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:146:7" }
+edge: { sourcename: "nrf51__adc__start_vdd_conversion" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:138:12" }
+edge: { sourcename: "nrf51__adc__start_vdd_conversion" targetname: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_reference" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:134:7" }
+edge: { sourcename: "nrf51__adc__start_vdd_conversion" targetname: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_resolution" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:133:7" }
+node: { title: "nrf51__adc__start_pin_conversion" label: "Start_Pin_Conversion\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:81:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__adc__start_pin_conversion" targetname: "nrf51__tasks__trigger" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:120:7" }
+edge: { sourcename: "nrf51__adc__start_pin_conversion" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:100:12" }
+edge: { sourcename: "nrf51__adc__start_pin_conversion" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:91:12" }
+edge: { sourcename: "nrf51__adc__start_pin_conversion" targetname: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_reference" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:89:7" }
+edge: { sourcename: "nrf51__adc__start_pin_conversion" targetname: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_resolution" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:88:7" }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_reference" label: "Set_Reference\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:57:4\n16 bytes (static)" }
+edge: { sourcename: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_reference" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:61:12" }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_resolution" label: "Set_Resolution\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:44:4\n16 bytes (static)" }
+edge: { sourcename: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:nrf51__adc__set_resolution" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-adc.adb:47:15" }
+}

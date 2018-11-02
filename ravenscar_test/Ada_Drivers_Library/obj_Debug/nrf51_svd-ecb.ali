@@ -1,0 +1,100 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U nrf51_svd.ecb%s	nrf51_svd-ecb.ads	e2c6d3ed NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W system%s		system.ads		system.ali
+
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-ecb.ads	20180927154656 7a70bd0f nrf51_svd.ecb%s
+D system.ads		20181030114412 14907ac1 system%s
+X 1 hal.ads
+34K9*HAL 166e8 4|36w6 102r23 169r23 197r23 216r33 219r33 221r33 223r33 229r33
+93M9*UInt30 4|102r27 169r27
+95M9*UInt31 4|197r27
+97M9*UInt32<2|74M9> 4|216r37 219r37 221r37 223r37 229r37
+X 2 interfac.ads
+74M9*Unsigned_32
+X 3 nrf51_svd.ads
+40K9*NRF51_SVD 114e14 4|39r9 195r44 250r5
+X 4 nrf51_svd-ecb.ads
+39K19*ECB 3|40k9 4|195r54 250l15 250e18
+47E9*INTENSET_ENDECB_Field 53e6 54r8
+50n7*Disabled{47E9} 55r7
+52n7*Enabled{47E9} 56r7
+59E9*INTENSET_ENDECB_Field_1 65e6 66r8 97r23
+62n7*Intenset_Endecb_Field_Reset{59E9} 67r7 97r50
+64n7*Set{59E9} 68r7
+71E9*INTENSET_ERRORECB_Field 77e6 78r8
+74n7*Disabled{71E9} 79r7
+76n7*Enabled{71E9} 80r7
+83E9*INTENSET_ERRORECB_Field_1 89e6 90r8 99r23
+86n7*Intenset_Errorecb_Field_Reset{83E9} 91r7 100r24
+88n7*Set{83E9} 92r7
+95R9*INTENSET_Register 104e6 107r8 225r33
+97e7*ENDECB{59E9} 108r7
+99e7*ERRORECB{83E9} 109r7
+102m7*Reserved_2_31{1|93M9} 110r7
+114E9*INTENCLR_ENDECB_Field 120e6 121r8
+117n7*Disabled{114E9} 122r7
+119n7*Enabled{114E9} 123r7
+126E9*INTENCLR_ENDECB_Field_1 132e6 133r8 164r23
+129n7*Intenclr_Endecb_Field_Reset{126E9} 134r7 164r50
+131n7*Clear{126E9} 135r7
+138E9*INTENCLR_ERRORECB_Field 144e6 145r8
+141n7*Disabled{138E9} 146r7
+143n7*Enabled{138E9} 147r7
+150E9*INTENCLR_ERRORECB_Field_1 156e6 157r8 166r23
+153n7*Intenclr_Errorecb_Field_Reset{150E9} 158r7 167r24
+155n7*Clear{150E9} 159r7
+162R9*INTENCLR_Register 171e6 174r8 227r33
+164e7*ENDECB{126E9} 175r7
+166e7*ERRORECB{150E9} 176r7
+169m7*Reserved_2_31{1|93M9} 177r7
+181E9*POWER_POWER_Field 187e6 188r8 195r23
+184n7*Disabled{181E9} 189r7 195r58
+186n7*Enabled{181E9} 190r7
+193R9*POWER_Register 199e6 202r8 231r33
+195e7*POWER{181E9} 203r7
+197m7*Reserved_1_31{1|95M9} 204r7
+212R9*ECB_Peripheral 233e6 235r8 247r25
+216m7*TASKS_STARTECB{1|97M9} 236r7
+219m7*TASKS_STOPECB{1|97M9} 237r7
+221m7*EVENTS_ENDECB{1|97M9} 238r7
+223m7*EVENTS_ERRORECB{1|97M9} 239r7
+225r7*INTENSET{95R9} 240r7
+227r7*INTENCLR{162R9} 241r7
+229m7*ECBDATAPTR{1|97M9} 242r7
+231r7*POWER{193R9} 243r7
+247r4*ECB_Periph{212R9}
+X 5 system.ads
+55K9*System 4|37w6 105r24 172r24 200r24 248r30 5|175e11
+85M9*Address 4|248r30
+109n41*Low_Order_First{109E9} 4|105r31 172r31 200r31
+

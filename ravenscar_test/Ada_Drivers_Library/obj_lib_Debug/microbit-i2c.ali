@@ -1,0 +1,104 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U microbit.i2c%b	microbit-i2c.adb	382d7d3c NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
+W microbit%s		microbit.ads		microbit.ali
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51.device%s	nrf51-device.ads	nrf51-device.ali
+W nrf51.twi%s		nrf51-twi.adb		nrf51-twi.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U microbit.i2c%s	microbit-i2c.ads	883d6ef4 EE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.i2c%s		hal-i2c.ads		hal-i2c.ali
+W microbit%s		microbit.ads		microbit.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D microbit-i2c.ads	20180927154656 ca0cfb0e microbit.i2c%s
+D microbit-i2c.adb	20180927154656 2cb8ba8d microbit.i2c%b
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 3 hal.ads
+34K9*HAL 166e8 8|32r6 32r19
+X 4 hal-gpio.ads
+47h9*GPIO_Point
+X 5 hal-i2c.ads
+32K13*I2C 84e12 8|32w10 32r23
+48h9*I2C_Port
+50P9*Any_I2C_Port(48R9) 8|48r40 9|69r40
+X 7 microbit.ads
+35K9*MicroBit 67e13 8|34r9 51r5 9|35r14 72r5
+63r4*MB_SCL=63:44{12|66R9} 9|53r19
+64r4*MB_SDA=64:44{12|66R9} 9|54r19
+X 8 microbit-i2c.ads
+34K18*I2C 7|35k9 8|51l14 51e17 9|35b23 72l14 72t17
+36E9*Speed 36e48 41r30 9|50r30
+36n19*S100kbps{36E9} 9|56r28
+36n29*S250kbps{36E9} 9|57r28
+36n39*S400kbps{36E9} 41r39 9|50r39 58r28
+38V13*Initialized{boolean} 42s19 9|43b13
+41U14*Initialize 41>26 9|50b14 63l8 63t18
+41e26 S{36E9} 9|50b26 55r25
+48V13*Controller{5|50P9} 9|69b13
+X 9 microbit-i2c.adb
+37b4 Init_Done{boolean} 44r8 62m7
+X 10 nrf51.ads
+34K9*nRF51 9|32r6 33r6 52r7 56r40 57r40 58r40 61r7 70r8 10|43e10
+X 11 nrf51-device.ads
+41K15*Device 9|32w12 52r13 61r13 70r14 11|86e17
+79r4*TWI_0{15|41R9} 9|52m20 52r20 61m20 61r20 70m21 70r21
+X 12 nrf51-gpio.ads
+36I12*GPIO_Pin_Index{natural}
+67i7*Pin{36I12} 9|53r26 54r26
+X 15 nrf51-twi.ads
+37K15*TWI 9|33w12 56r46 57r46 58r46 15|104e14
+39n23*TWI_100kbps{39E9} 9|56r50
+39n36*TWI_250kbps{39E9} 9|57r50
+39n49*TWI_400kbps{39E9} 9|58r50
+44U14*Enable 9|61s26
+50U14*Configure 9|52s26
+51i25 SCL{12|36I12} 9|53r10
+51i30 SDA{12|36I12} 9|54r10
+52e25 Speed{39E9} 9|55r10
+

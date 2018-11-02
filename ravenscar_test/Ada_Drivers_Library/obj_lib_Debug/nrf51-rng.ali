@@ -1,0 +1,70 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U nrf51.rng%b		nrf51-rng.adb		90f60405 NE OO PK
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W nrf51_svd.rng%s	nrf51_svd-rng.ads	nrf51_svd-rng.ali
+
+U nrf51.rng%s		nrf51-rng.ads		f67790b2 EE NE OO PK
+W hal%s			hal.ads			hal.ali
+W nrf51%s		nrf51.ads		nrf51.ali
+
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-rng.ads		20180927154656 89ba5754 nrf51.rng%s
+D nrf51-rng.adb		20180927154656 c7748bc0 nrf51.rng%b
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rng.ads	20180927154656 de38d891 nrf51_svd.rng%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+X 1 hal.ads
+34K9*HAL 166e8 4|32w6 32r15
+53M9*UInt8<2|63M9> 4|40r25 5|58r25
+97M9*UInt32<2|74M9>
+X 2 interfac.ads
+63M9*Unsigned_8
+74M9*Unsigned_32
+X 3 nrf51.ads
+34K9*nRF51 43e10 4|34r9 42r5 5|34r14 73r5
+X 4 nrf51-rng.ads
+34K15*RNG 3|34k9 4|42l11 42e14 5|34b20 73l11 73t14
+36U14*Enable_Digital_Error_Correction 5|40b14 43l8 43t39
+38U14*Disable_Digital_Error_Correction 5|49b14 52l8 52t40
+40V13*Read{1|53M9} 5|58b13 71l8 71t12
+X 6 nrf51_svd.ads
+40K9*NRF51_SVD 5|32r6 32r25 6|114e14
+X 7 nrf51_svd-rng.ads
+39K19*RNG 5|32w16 32r35 7|265e18
+155n7*Disabled{152E9} 5|51r35
+157n7*Enabled{152E9} 5|42r35
+166e7*DERCEN{152E9} 5|42m25 51m25
+178M12*VALUE_VALUE_Field{1|53M9}
+183m7*VALUE{178M12} 5|70r31
+229m7*TASKS_START{1|97M9} 5|64m18
+233m7*EVENTS_VALRDY{1|97M9} 5|61m18 66r24
+241r7*CONFIG{164R9} 5|42m18 51m18
+243r7*VALUE{181R9} 5|70r25
+262r4*RNG_Periph{227R9} 5|42m7 51m7 61m7 64m7 66r13 70r14
+

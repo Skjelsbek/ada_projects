@@ -19,7 +19,7 @@ def list_of_devices(config):
     elif family == "FE3":
         return ['FE310']
     else:
-        print "fatal error, unknown family '%s'" % family
+        print ("fatal error, unknown family '%s'" % family)
         sys.exit(1)
 
 
@@ -32,7 +32,7 @@ def list_of_vendors(config):
     elif arch == "Native":
         return []
     else:
-        print "fatal error, unknown architecture '%s'" % arch
+        print ("fatal error, unknown architecture '%s'" % arch)
         sys.exit(1)
 
 
@@ -45,7 +45,7 @@ def list_of_families(config):
     elif vendor == "SiFive":
         return ['FE3']
     else:
-        print "fatal error, unknown vendor '%s'" % vendor
+        print ("fatal error, unknown vendor '%s'" % vendor)
         sys.exit(1)
 
 
@@ -158,7 +158,7 @@ def load_device_config(config):
                 'arch/RISC-V/SiFive/drivers/']
 
     else:
-        print "Unknown MCU device %s." % mcu
+        print ("Unknown MCU device %s." % mcu)
 
     for d in src:
         config.add_source_dir(d, origin)

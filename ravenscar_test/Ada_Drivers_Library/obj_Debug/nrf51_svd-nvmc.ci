@@ -1,0 +1,11 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads"
+node: { title: "nrf51_svd__nvmc__nvmc_peripheralIP" label: "NVMC_PERIPHERALIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:168:9\n16 bytes (static)" }
+edge: { sourcename: "nrf51_svd__nvmc__nvmc_peripheralIP" targetname: "nrf51_svd__nvmc__eraseuicr_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:180:7" }
+edge: { sourcename: "nrf51_svd__nvmc__nvmc_peripheralIP" targetname: "nrf51_svd__nvmc__eraseall_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:176:7" }
+edge: { sourcename: "nrf51_svd__nvmc__nvmc_peripheralIP" targetname: "nrf51_svd__nvmc__config_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:174:7" }
+node: { title: "nrf51_svd__nvmc__nvmc_peripheralEQ" label: "NVMC_PERIPHERALEQ\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:168:9\n24 bytes (static)" }
+node: { title: "nrf51_svd__nvmc__eraseuicr_registerIP" label: "ERASEUICR_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:144:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__nvmc__eraseall_registerIP" label: "ERASEALL_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:116:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__nvmc__config_registerIP" label: "CONFIG_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:89:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__nvmc__ready_registerIP" label: "READY_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-nvmc.ads:59:9\n16 bytes (static)" }
+}

@@ -1,0 +1,298 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U microbit.ios%b	microbit-ios.adb	a489e23d OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W microbit%s		microbit.ads		microbit.ali
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51.adc%s		nrf51-adc.adb		nrf51-adc.ali
+W nrf51.device%s	nrf51-device.ads	nrf51-device.ali
+W nrf51.events%s	nrf51-events.adb	nrf51-events.ali
+W nrf51.gpio%s		nrf51-gpio.adb		nrf51-gpio.ali
+W nrf51.gpio.tasks_and_events%s  nrf51-gpio-tasks_and_events.adb  nrf51-gpio-tasks_and_events.ali
+W nrf51.interrupts%s	nrf51-interrupts.adb	nrf51-interrupts.ali
+W nrf51.ppi%s		nrf51-ppi.adb		nrf51-ppi.ali
+W nrf51.timers%s	nrf51-timers.adb	nrf51-timers.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U microbit.ios%s	microbit-ios.ads	bb15bd2e EE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W microbit%s		microbit.ads		microbit.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 5b5f0f2f ada.exceptions%s
+D a-except.adb		20180524194940 85a38458 ada.exceptions%b
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D microbit-ios.ads	20180927154656 f7f319ec microbit.ios%s
+D microbit-ios.adb	20180927154656 fc48bbf1 microbit.ios%b
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-adc.ads		20180927154656 1b2be61f nrf51.adc%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-events.ads	20180927154656 eede65d8 nrf51.events%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-gpio-tasks_and_events.ads  20180927154656 54441bc5 nrf51.gpio.tasks_and_events%s
+D nrf51-interrupts.ads	20180927154656 b03cf123 nrf51.interrupts%s
+D nrf51-ppi.ads		20180927154656 6ef8d480 nrf51.ppi%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-aar.ads	20180927154656 5b15545c nrf51_svd.aar%s
+D nrf51_svd-adc.ads	20180927154656 d4ced90f nrf51_svd.adc%s
+D nrf51_svd-ccm.ads	20180927154656 a60c4092 nrf51_svd.ccm%s
+D nrf51_svd-clock.ads	20180927154656 046a1b24 nrf51_svd.clock%s
+D nrf51_svd-ecb.ads	20180927154656 7a70bd0f nrf51_svd.ecb%s
+D nrf51_svd-gpiote.ads	20180927154656 36bdd7e1 nrf51_svd.gpiote%s
+D nrf51_svd-power.ads	20180927154656 bac5d844 nrf51_svd.power%s
+D nrf51_svd-qdec.ads	20180927154656 da53e169 nrf51_svd.qdec%s
+D nrf51_svd-radio.ads	20180927154656 a2a815ac nrf51_svd.radio%s
+D nrf51_svd-rng.ads	20180927154656 de38d891 nrf51_svd.rng%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-spi.ads	20180927154656 d8f87c63 nrf51_svd.spi%s
+D nrf51_svd-temp.ads	20180927154656 d6aebf8e nrf51_svd.temp%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D nrf51_svd-uart.ads	20180927154656 bc286d36 nrf51_svd.uart%s
+D nrf51_svd-wdt.ads	20180927154656 7efc13a6 nrf51_svd.wdt%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 5 hal.ads
+34K9*HAL 166e8 11|32w6 32r39
+54M9*UInt10
+97M9*UInt32<8|74M9> 11|140r25 145r21 162r56 169r56 171r22 172r9 378r21
+X 6 hal-gpio.ads
+47h9*GPIO_Point
+X 7 hal-i2c.ads
+48h9*I2C_Port
+X 8 interfac.ads
+74M9*Unsigned_32
+X 9 microbit.ads
+35K9*MicroBit 67e13 10|32r9 69r5 11|43r14 462r5
+39r4*MB_P0=39:57{16|66R9} 11|98r13 115r13 116r13
+40r4*MB_P1=40:57{16|66R9} 11|99r13
+41r4*MB_P2=41:57{16|66R9} 11|100r13
+42r4*MB_P3=42:57{16|66R9} 11|101r13
+43r4*MB_P4=43:57{16|66R9} 11|102r13
+44r4*MB_P5=44:57{16|66R9} 11|103r13
+45r4*MB_P6=45:57{16|66R9} 11|104r13
+46r4*MB_P7=46:57{16|66R9} 11|105r13
+47r4*MB_P8=47:57{16|66R9} 11|106r13
+48r4*MB_P9=48:57{16|66R9} 11|107r13
+49r4*MB_P10=49:57{16|66R9} 11|108r13
+50r4*MB_P11=50:57{16|66R9} 11|109r13
+51r4*MB_P12=51:57{16|66R9} 11|110r13
+52r4*MB_P13=52:57{16|66R9} 11|111r13
+53r4*MB_P14=53:57{16|66R9} 11|112r13
+54r4*MB_P15=54:57{16|66R9} 11|113r13
+55r4*MB_P16=55:57{16|66R9} 11|114r13
+56r4*MB_P19=56:57{16|66R9} 11|117r13
+57r4*MB_P20=57:57{16|66R9} 11|118r13
+X 10 microbit-ios.ads
+32K18*IOs 9|35k9 10|69l14 69e17 11|43b23 462l14 462t17
+34I9*Pin_Id<short_short_integer> 38r29 50r25 53r24 62r27 65r27 11|97r20 123r26
+. 134r23 146r21 151r28 153r38 156r36 188r38 211r36 316r13 348r13 391r13 437r13
+36E9*IO_Features 36e48 38r47
+36n25*Digital{36E9} 40r15 51r33 54r33
+36n34*Analog{36E9} 43r15 63r33 66r33
+36n42*Touch{36E9} 46r15
+38V13*Supports{boolean} 38>23 38>37 51s18 54s18 63s18 66s18
+38i23 Pin{34I9} 40r32 43r32 46r32
+38e37 Feature{36E9} 39r12
+50U14*Set 50>19 50>33 11|315b14 341l8 341t11
+50i19 Pin{34I9} 51r28 11|316b7 319r41 322r24 323r22 324r29 333r24
+50b33 Value{boolean} 11|317b7 336r10
+53V13*Set{boolean} 53>18 11|347b13 370l8 370t11
+53i18 Pin{34I9} 54r28 11|348b7 351r41 354r24 355r22 356r29 366r24
+56I9*Analog_Value<short_integer> 62r43 65r42 11|144r21 162r35 169r35 172r58
+. 392r15 438r14 459r14
+58U14*Set_Analog_Period_Us 58>36 11|376b14 384l8 384t28
+58i36 Period{natural} 11|376b36 378r29
+62U14*Write 62>21 62>35 11|390b14 430l8 430t13
+62i21 Pin{34I9} 63r28 11|391b7 396r41 400r23 407r24 421r24 428r24 429r24
+62i35 Value{56I9} 11|392b7 428r45 429r55
+65V13*Analog{56I9} 65>21 11|436b13 460l8 460t14
+65i21 Pin{34I9} 66r28 11|437b7 441r24 442r22 443r29 445r24 448r44
+X 11 microbit-ios.adb
+97a4 Points(16|66R9) 255r27 319m33 319r33 351r33 396m33 396r33
+122E9 Pin_Mode 122e75 123r37
+122n22 None{122E9} 123r60
+122n28 Digital_In{122E9} 354r32 366r32
+122n40 Digital_Out{122E9} 322r32 333r32
+122n53 Analog_In{122E9} 441r32 445r32
+122n64 Analog_Out{122E9} 421r32
+123a4 Current_Mode(122E9) 322r10 333m10 354r10 366m10 421m10 441r10 445m10
+127N4 Number_Of_PWMs 129r37 130r47 132r39
+129I9 PWM_Allocated<short_short_integer> 130r22 132r22 134r34
+130I12 PWM_Id{129I9} 149r18 159r34 160r37 192r17 224r34 250r37 295r17
+132i4 No_PWM{129I9} 134r62 152r27 213r29 216r29
+134a4 PWM_Alloc(129I9) 152r8 196m13 213r10 214r63 215r16 216m10 428r13 429r13
+136r4 PWM_Timer=136:39{21|37R9} 233r21 239r21 266r14 268r7 270r7 271r7 272r7
+. 274r7 283r7 284r7 285r7 289r7 293r7 295r37 303r25 404r10 405r10 425r10
+137e4 PWM_Interrupt{18|35E9} 305r34 308r32
+138i4 PWM_Global_Compare{21|40I9} 239r46 266r39 268r30 289r44 293r30 303r50
+139N4 PWM_Precision 140r43 378r39
+140m4 PWM_Period{5|97M9} 172r24 177r20 178r17 268r50 293r50 378m7
+142R9 PWM_Status 147e14 149r29
+143b7*Taken{boolean} 193r27 194m23 215m33 297r23
+144i7*Pulse_Width{10|56I9} 296r61 382r43 428m30
+145m7*Cmp{5|97M9} 270r42 271r42 272r42 382m14 429m30
+146i7*Pin{10|34I9} 195m23 255r45
+149a4 PWMs(142R9) 193r17 194m13 195m13 215m10 255r35 270r33 271r33 272r33
+. 296r51 297r13 381m18 381r18 428m7 429m7
+151V13 Has_PWM{boolean} 151>22 155s22 157s19 158s23 323s13 355s13 400s14
+. 442s13
+151i22 Pin{10|34I9} 152r19
+153U14 Allocate_PWM 153>28 154<28 188b14 205l8 205t20 407s10
+153i28 Pin{10|34I9} 155r31 188b28 195r30 196r24
+154b28 Success{boolean} 189b28 200m13 204m7
+156U14 Deallocate_PWM 156>30 211b14 218l8 218t22 324s13 356s13 443s13
+156i30 Pin{10|34I9} 157r28 158r32 211b30 213r21 214r74 215r27 216r21
+159U14 Configure_PPI 159>29 198s13 224b14 244l8 244t21
+159i29 Id{130I12} 224b29 225r50 233r61 234r47 240r47
+160U14 Configure_GPIOTE 160>32 250b14 258l8 258t24 298s13
+160i32 Id{130I12} 250b32 254r43 255r41
+161U14 Init_PWM_Timer 281b14 309l8 309t22 423s10
+162V13 To_Compare_Value{5|97M9} 162>31 169b13 182l8 182t24 296s33 382s21
+. 429s37
+162i31 V{10|56I9} 169b31 172r46
+163U14 PWM_Timer_Handler 264b14 275l8 275t25 306r34
+171m7 Cmp{5|97M9} 175r10 177r13 180r17
+192i11 Id{130I12} 193r23 194r19 195r19 196r32 198r28
+225i7 Chan1{19|34I12} 226r38 232r21 242r33
+226i7 Chan2{19|34I12} 238r21 243r33
+295i11 Id{130I12} 295r75 296r57 297r19 298r31
+319r7 Pt=319:33{16|66R9} 332r10 337r10 339r10
+320r7 Conf{16|58R9} 327m10 328m10 329m10 330m10 332r27
+351r7 Pt=351:33{16|66R9} 364r10 369r14
+352r7 Conf{16|58R9} 359m10 360m10 361m10 362m10 364r27
+381r11 PWM=381:18{142R9} 382r10 382r39
+394b7 Success{boolean} 407m29 408r17
+396r7 Pt=396:33{16|66R9} 418r10 419r10
+397r7 Conf{16|58R9} 413m10 414m10 415m10 416m10 418r27
+X 12 nrf51.ads
+34K9*nRF51 11|34r6 34r39 35r6 35r39 36r6 36r39 37r6 37r39 38r6 38r39 39r6
+. 39r39 40r6 40r39 41r6 41r39 214r10 231r7 237r7 242r7 243r7 253r7 305r7
+. 308r7 12|43e10
+36M9*Event_Type<41|85M9>
+38M9*Task_Type<41|85M9>
+X 13 nrf51-adc.ads
+34K15*ADC 11|35w12 35r45 13|61e14
+36I9*Bits_Resolution<short_short_integer>
+38I9*Analog_Pin<short_short_integer>
+40n58*Pin_One_Third{40E9} 11|456r38
+44n43*VDD_One_Third{43E9} 11|457r38
+46U14*Start_Pin_Conversion 11|448s7
+47i7 Pin{38I9} 11|448r29
+48e7 Input{40E9} 11|456r29
+49e7 Ref{43E9} 11|457r29
+50i7 Res{36I9} 11|458r29
+59V13*Wait_For_Result{5|54M9} 11|459s28
+X 14 nrf51-device.ads
+41K15*Device 11|36w12 36r45 14|86e17
+82r4*Timer_0{21|37R9} 11|136m39 136r39
+X 15 nrf51-events.ads
+53K15*Events 11|40w12 40r45 15|382e17
+57U14*Enable_Interrupt 11|303s7
+61U14*Clear 11|266s7
+X 16 nrf51-gpio.ads
+34K15*GPIO 11|34w12 34r45 39r12 39r45 214r16 253r13 16|122e15
+36I12*GPIO_Pin_Index{natural}
+38n26*Mode_In{38E9} 11|359r31
+38n35*Mode_Out{38E9} 11|327r31 413r31
+40n47*No_Pull{40E9} 11|328r31 360r31 414r31
+51n28*Sense_Disabled{51E9} 11|330r31 362r31 416r31
+55n35*Input_Buffer_Connect{55E9} 11|329r31 361r31 415r31
+58R9*GPIO_Configuration 11|320r14 352r14 397r14 16|64e14
+59e7*Mode{38E9} 11|327m15 359m15 413m15
+60e7*Resistors{40E9} 11|328m15 360m15 414m15
+61e7*Input_Buffer{55E9} 11|329m15 361m15 415m15
+63e7*Sense{51E9} 11|330m15 362m15 416m15
+66R9*GPIO_Point<6|47R9> 11|97r31 319r14 351r14 396r14 16|68e14
+67i7*Pin{36I12} 11|255r50
+94V13*Set{boolean}<6|76p13> 11|369s17
+100U14*Set<6|88p14> 11|337s13
+106U14*Clear<6|90p14> 11|339s13 419s13
+117U14*Configure_IO 11|332s13 364s13 418s13
+X 17 nrf51-gpio-tasks_and_events.ads
+32K20*Tasks_And_Events 11|39w17 39r50 214r21 253r18 17|61e32
+34I9*GPIOTE_Channel<short_short_integer> 11|214r47 234r31 240r31 254r27
+36U14*Disable 11|214s38
+45n45*Toggle_Pin{45E9} 11|256r27
+46n24*Init_Set{46E9} 11|257r27
+48U14*Enable_Task 11|253s35
+48i27 Chan{34I9} 11|254r10
+49i27 GPIO_Pin{16|36I12} 11|255r10
+50e27 Action{45E9} 11|256r10
+51e27 Initial_Value{46E9} 11|257r10
+55V13*Out_Task{12|38M9} 11|234s21 240s21
+X 18 nrf51-interrupts.ads
+34K15*Interrupts 11|41w12 41r45 305r13 308r13 18|118e21
+35E9*Interrupt_Name 11|137r34 18|67e26
+44n7*TIMER0_Interrupt{35E9} 11|137r52
+72U14*Enable 11|308s24
+78U14*Register 11|305s24
+X 19 nrf51-ppi.ads
+32K15*PPI 11|37w12 37r45 231r13 237r13 242r13 243r13 19|51e14
+34I12*Channel_ID{natural} 11|225r24 225r38 226r24
+37U14*Configure 11|231s17 237s17
+37i25 Chan{34I12} 11|232r10 238r10
+38m25 Evt_EP{12|36M9} 11|233r10 239r10
+39m25 Task_EP{12|38M9} 11|234r10 240r10
+41U14*Enable_Channel 11|242s17 243s17
+X 21 nrf51-timers.ads
+35K15*Timers 11|38w12 38r45 21|158e17
+37R9*Timer 11|136r25 21|156e25
+40I9*Timer_Channel<short_short_integer> 11|138r34 233r46 295r60
+46U14*Set_Prescaler 11|284s17
+54n24*Mode_Timer{54E9} 11|283r27
+56U14*Set_Mode 11|283s17
+68n27*Bitmode_32bit{65E9} 11|285r30
+70U14*Set_Bitmode 11|285s17
+88U14*Start 11|274s17 425s20
+91U14*Stop 11|404s20
+94U14*Clear 11|405s20
+101U14*Compare_Shortcut 11|289s17
+102i32 Chan{40I9} 11|289r35
+103b32 Stop{boolean} 11|290r35
+104b32 Clear{boolean} 11|291r35
+114U14*Set_Compare 11|268s17 270s17 271s17 272s17 293s17 295s47
+149V13*Compare_Event{12|36M9} 11|233s31 239s31 266s24 303s35
+X 41 system.ads
+85M9*Address
+

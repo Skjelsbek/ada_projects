@@ -1,0 +1,94 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U cortex_m.nvic%b	cortex_m-nvic.adb	83ec7fa9 NE OO PK
+W cortex_m%s		cortex_m.ads		cortex_m.ali
+W cortex_m_svd%s	cortex_m_svd.ads	cortex_m_svd.ali
+W cortex_m_svd.nvic%s	cortex_m_svd-nvic.ads	cortex_m_svd-nvic.ali
+
+U cortex_m.nvic%s	cortex_m-nvic.ads	9613c00b BN EE NE OO PK
+W cortex_m%s		cortex_m.ads		cortex_m.ali
+W hal%s			hal.ads			hal.ali
+
+D cortex_m.ads		20180927154656 38b367df cortex_m%s
+D cortex_m-nvic.ads	20180927154656 85e26fda cortex_m.nvic%s
+D cortex_m-nvic.adb	20180927154656 c690cdcc cortex_m.nvic%b
+D cortex_m_svd.ads	20180927154656 f67d36db cortex_m_svd%s
+D cortex_m_svd-nvic.ads	20180927154656 c09eddbf cortex_m_svd.nvic%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+X 1 cortex_m.ads
+32K9*Cortex_M 34e13 2|47r9 68r5 3|44r14 130r5
+X 2 cortex_m-nvic.ads
+47K18*NVIC 1|32k9 2|68l14 68e18 3|44b23 130l14 130t18
+49I12*Interrupt_ID{natural} 53r18 56r29 58r30 60r29 62r29 64r34 66r36 3|52r18
+. 80r29 89r30 98r29 107r29 116r34 125r36
+50M12*Interrupt_Priority{6|53M9} 54r18 3|53r18
+52U14*Set_Priority 53>7 54>7 3|51b14 74l8 74t20
+53i7 IRQn{49I12} 3|52b7 64r39 65r39
+54m7 Priority{50M12} 3|53b7 71r29
+56U14*Enable 56>22 3|80b14 83l8 83t14
+56i22 IRQn{49I12} 3|80b22 82r47
+58U14*Disable 58>23 3|89b14 92l8 92t15
+58i23 IRQn{49I12} 3|89b23 91r47
+60V13*Enabled{boolean} 60>22 3|98b13 101l8 101t15
+60i22 IRQn{49I12} 3|98b22 100r57
+62V13*Pending{boolean} 62>22 3|107b13 110l8 110t15
+62i22 IRQn{49I12} 3|107b22 109r57
+64U14*Set_Pending 64>27 3|116b14 119l8 119t19
+64i27 IRQn{49I12} 3|116b27 118r47
+66U14*Clear_Pending 66>29 3|125b14 128l8 128t21
+66i29 IRQn{49I12} 3|125b29 127r47
+X 3 cortex_m-nvic.adb
+55R12 As_Array 55d22 62e18 66r19
+55b22 As_Arr{boolean} 56r15
+58a16 Arr{6|162A9} 71m11
+60m16 IPR{6|97M9} 69m11 73r47
+64i7 IPR_Index{natural} 69r40 73r29
+65i7 IP_Index{natural} 71r16
+66r7 IPR{55R12} 69m7 71m7 73r43
+X 4 cortex_m_svd.ads
+9K9*Cortex_M_SVD 3|42r6 42r29 4|27e17
+X 5 cortex_m_svd-nvic.ads
+9K22*NVIC 3|42w19 42r42 5|51e22
+19A9*NVIC_IPR_Registers(6|97M9)<integer>
+28m7*NVIC_ISER{6|97M9} 3|82m19 100r28
+30m7*NVIC_ICER{6|97M9} 3|91m19
+32m7*NVIC_ISPR{6|97M9} 3|109r28 118m19
+34m7*NVIC_ICPR{6|97M9} 3|127m19
+36a7*NVIC_IPR{19A9} 3|69r30 73m19
+48r4*NVIC_Periph{26R9} 3|69r18 73m7 82m7 91m7 100r16 109r16 118m7 127m7
+X 6 hal.ads
+34K9*HAL 2|45w6 45r32 6|166e8
+53M9*UInt8<7|63M9> 2|50r34
+97M9*UInt32<7|74M9> 3|60r22
+162A9*UInt8_Array(53M9)<integer> 3|58r22
+X 7 interfac.ads
+63M9*Unsigned_8
+74M9*Unsigned_32
+121V13*Shift_Left{74M9} 3|82s32 91s32 100s42 109s42 118s32 127s32
+

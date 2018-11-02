@@ -1,0 +1,44 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U adl_config%s		adl_config.ads		473b9401 NE OO PK
+
+D adl_config.ads	20181102143208 473b9401 adl_config%s
+D system.ads		20181030114412 14907ac1 system%s
+X 1 adl_config.ads
+2K9*ADL_Config 18l5 18e15
+3a4*Board{string}
+4a4*Architecture{string}
+5a4*Vendor{string}
+6a4*Device_Family{string}
+7a4*Device_Name{string}
+8a4*CPU_Core{string}
+9a4*Has_ZFP_Runtime{string}
+10a4*Has_Ravenscar_SFP_Runtime{string}
+11a4*Has_Ravenscar_Full_Runtime{string}
+12a4*Runtime_Profile{string}
+13a4*Runtime_Name_Suffix{string}
+14a4*Runtime_Name{string}
+15N4*Max_Path_Length
+16N4*Max_Mount_Points
+17N4*Max_Mount_Name_Length
+

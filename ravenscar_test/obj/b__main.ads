@@ -80,8 +80,6 @@ package ada_main is
    --  system.task_primitives.operations%b
    --  ada.real_time%s
    --  ada.real_time%b
-   --  ada.real_time.delays%s
-   --  ada.real_time.delays%b
    --  system.assertions%s
    --  system.assertions%b
    --  cortex_m%s

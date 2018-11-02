@@ -1,0 +1,67 @@
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:78:62"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:80:89"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:101:38"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:102:39"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:121:35"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:122:30"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "15:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:124:30"
+}
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb"
+node: { title: "__aeabi_lmul" label: "aeabi_lmul\n<built-in>" shape : ellipse }
+node: { title: "file_io__write" label: "Write\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\filesystem\file_io.ads:113:13" shape : ellipse }
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "memcmp" label: "builtin_memcmp\n<built-in>" shape : ellipse }
+node: { title: "bitmap_file_output__write_bmp_file" label: "Write_Bmp_File\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:73:4\n192 bytes (dynamic)" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:138:13" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:136:13" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:132:16" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:130:16" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:124:21" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:122:30" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:121:35" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:118:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:117:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:114:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:113:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:102:39" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:101:38" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:90:41" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "memset" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:84:70" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:80:69" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__aeabi_lmul" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:80:89" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:80:54" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:78:69" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:78:62" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "bitmap_file_output__infoIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:77:7" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "bitmap_file_output__headerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:76:7" }
+node: { title: "bitmap_file_output__infoIP" label: "Infoip\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:50:9\n16 bytes (static)" }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__infoEQ" label: "Infoeq\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:50:9\n24 bytes (static)" }
+edge: { sourcename: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__infoEQ" targetname: "memcmp" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:50:9" }
+node: { title: "bitmap_file_output__headerIP" label: "Headerip\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:37:9\n16 bytes (static)" }
+node: { title: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__headerEQ" label: "Headereq\nD:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:37:9\n24 bytes (static)" }
+edge: { sourcename: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__headerEQ" targetname: "memcmp" label: "D:\programming\ada_projects\Ada_Drivers_Library\middleware\src\bitmap\bitmap_file_output.adb:37:9" }
+}

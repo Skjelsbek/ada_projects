@@ -1,0 +1,9 @@
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads"
+node: { title: "nrf51_svd__ecb__ecb_peripheralIP" label: "ECB_PERIPHERALIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:212:9\n16 bytes (static)" }
+edge: { sourcename: "nrf51_svd__ecb__ecb_peripheralIP" targetname: "nrf51_svd__ecb__power_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:231:7" }
+edge: { sourcename: "nrf51_svd__ecb__ecb_peripheralIP" targetname: "nrf51_svd__ecb__intenclr_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:227:7" }
+edge: { sourcename: "nrf51_svd__ecb__ecb_peripheralIP" targetname: "nrf51_svd__ecb__intenset_registerIP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:225:7" }
+node: { title: "nrf51_svd__ecb__power_registerIP" label: "POWER_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:193:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__ecb__intenclr_registerIP" label: "INTENCLR_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:162:9\n16 bytes (static)" }
+node: { title: "nrf51_svd__ecb__intenset_registerIP" label: "INTENSET_REGISTERIP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-ecb.ads:95:9\n16 bytes (static)" }
+}

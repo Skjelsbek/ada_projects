@@ -1,0 +1,94 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U nrf51_svd.uicr%s	nrf51_svd-uicr.ads	eb6653e1 NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W system%s		system.ads		system.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-uicr.ads	20180927154656 73d03d03 nrf51_svd.uicr%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 hal.ads
+34K9*HAL 166e8 4|36w6 79r24 108r23 118r31 126r24 139r47 145r47 151r50 168r32
+. 182r38
+66M9*UInt16<2|66M9> 4|79r28 118r35 126r28
+81M9*UInt24 4|108r27
+97M9*UInt32<2|74M9> 4|139r51 145r51 151r54 168r36 182r42
+X 2 interfac.ads
+66M9*Unsigned_16
+74M9*Unsigned_32
+X 3 nrf51_svd.ads
+40K9*NRF51_SVD 114e14 4|39r9 75r45 77r46 106r24 205r5
+X 4 nrf51_svd-uicr.ads
+39K19*UICR 3|40k9 4|75r55 77r56 106r34 205l15 205e19
+48E9*RBPCONF_PR0_Field 54e6 55r8 75r24
+51n7*Enabled{48E9} 56r7
+53n7*Disabled{48E9} 57r7 75r60
+60E9*RBPCONF_PALL_Field 66e6 67r8 77r24
+63n7*Enabled{60E9} 68r7
+65n7*Disabled{60E9} 69r7 77r61
+72R9*RBPCONF_Register 81e6 84r8 170r32
+75e7*PR0{48E9} 85r7
+77e7*PALL{60E9} 86r7
+79m7*Reserved_16_31{1|66M9} 87r7
+91E9*XTALFREQ_XTALFREQ_Field 97e6 98r8 105r23
+94n7*XTALFREQ_XTALFREQ_Field_32Mhz{91E9} 99r7
+96n7*XTALFREQ_XTALFREQ_Field_16Mhz{91E9} 100r7 106r39
+103R9*XTALFREQ_Register 110e6 113r8 172r32
+105e7*XTALFREQ{91E9} 114r7
+108m7*Reserved_8_31{1|81M9} 115r7
+118M12*FWID_FWID_Field{1|66M9} 124r24
+121R9*FWID_Register 128e6 131r8 174r32
+124m7*FWID{118M12} 132r7
+126m7*Reserved_16_31{1|66M9} 133r7
+139A9*NRFFW_Registers(1|97M9)<integer> 185r29
+145A9*NRFHW_Registers(1|97M9)<integer> 176r32
+151A9*CUSTOMER_Registers(1|97M9)<integer> 178r32
+158E9*UICR_Disc 161e14 165r22
+160n7*Mode_1{158E9} 165r35 180r15
+161n7*Mode_2{158E9} 183r15
+164R9*UICR_Peripheral 165d7 188e6 190r8 202r26
+165e7*Discriminent{158E9} 179r12
+168m7*CLENR0{1|97M9} 191r7
+170r7*RBPCONF{72R9} 192r7
+172r7*XTALFREQ{103R9} 193r7
+174r7*FWID{121R9} 194r7
+176a7*NRFHW{145A9} 195r7
+178a7*CUSTOMER{151A9} 196r7
+182m13*BOOTLOADERADDR{1|97M9} 197r7
+185a13*NRFFW{139A9} 198r7
+202r4*UICR_Periph{164R9}
+X 5 system.ads
+55K9*System 4|37w6 82r24 111r24 129r24 203r30 5|175e11
+85M9*Address 4|203r30
+109n41*Low_Order_First{109E9} 4|82r31 111r31 129r31
+

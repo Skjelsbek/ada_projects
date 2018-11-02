@@ -1,0 +1,73 @@
+class {
+  classname: "nrf51__gpio__gpio_point"
+  label: "nrf51__gpio__gpio_point\nrf51-gpio.ads:66:9"
+  parent: "hal__gpio__gpio_point"
+  virtuals: "1:nrf51__gpio__support,1:hal__gpio__gpio_point\n
+             2:nrf51__gpio__mode,2:hal__gpio__gpio_point\n
+             3:nrf51__gpio__set_mode,3:hal__gpio__gpio_point\n
+             4:nrf51__gpio__pull_resistor,4:hal__gpio__gpio_point\n
+             5:nrf51__gpio__set_pull_resistor,5:hal__gpio__gpio_point\n
+             6:nrf51__gpio__set,6:hal__gpio__gpio_point\n
+             7:nrf51__gpio__set__2,7:hal__gpio__gpio_point\n
+             8:nrf51__gpio__clear,8:hal__gpio__gpio_point\n
+             9:nrf51__gpio__toggle,9:hal__gpio__gpio_point\n
+             -1:nrf51__gpio___size,-1:hal__gpio__gpio_point\n
+             10:nrf51__gpio__configure_io\n
+             -6:nrf51__gpio__Oeq\n
+             -7:nrf51__gpio___assign"
+}
+graph: { title: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb"
+node: { title: "nrf51_svd__gpio__pin_cnf_pull_fieldRP" label: "PIN_CNF_PULL_FIELDRP\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\svd\nrf51\nrf51_svd-gpio.ads:378:9" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nD:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "nrf51__gpio___elabb" label: "Gpio\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:34:1\n8 bytes (static)" }
+node: { title: "nrf51__gpio__configure_io" label: "Configure_Io\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:150:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:179:32" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:154:63" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:169:32" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:154:63" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:164:31" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:154:63" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:160:32" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:154:63" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:156:30" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:154:63" }
+edge: { sourcename: "nrf51__gpio__configure_io" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:150:4" }
+node: { title: "nrf51__gpio__toggle" label: "Toggle\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:135:15\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__toggle" targetname: "nrf51__gpio__set__2" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:142:14" }
+edge: { sourcename: "nrf51__gpio__toggle" targetname: "nrf51__gpio__clear" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:140:14" }
+edge: { sourcename: "nrf51__gpio__toggle" targetname: "nrf51__gpio__set" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:139:14" }
+edge: { sourcename: "nrf51__gpio__toggle" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\Ada_Drivers_Library\hal\src\hal-gpio.ads:93:24" }
+edge: { sourcename: "nrf51__gpio__toggle" targetname: "nrf51__gpio__mode" label: "D:\programming\ada_projects\Ada_Drivers_Library\hal\src\hal-gpio.ads:93:28" }
+node: { title: "nrf51__gpio__clear" label: "Clear\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:124:15\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__clear" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:128:34" }
+node: { title: "nrf51__gpio__set__2" label: "Set\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:113:15\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__set__2" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:117:34" }
+node: { title: "nrf51__gpio__set_pull_resistor" label: "Set_Pull_Resistor\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:98:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__set_pull_resistor" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:103:15" }
+edge: { sourcename: "nrf51__gpio__set_pull_resistor" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:102:32" }
+edge: { sourcename: "nrf51__gpio__set_pull_resistor" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\Ada_Drivers_Library\hal\src\hal-gpio.ads:73:24" }
+edge: { sourcename: "nrf51__gpio__set_pull_resistor" targetname: "nrf51__gpio__support" label: "D:\programming\ada_projects\Ada_Drivers_Library\hal\src\hal-gpio.ads:73:28" }
+edge: { sourcename: "nrf51__gpio__set_pull_resistor" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:98:4" }
+node: { title: "nrf51__gpio__pull_resistor" label: "Pull_Resistor\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:82:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__pull_resistor" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:86:42" }
+edge: { sourcename: "nrf51__gpio__pull_resistor" targetname: "nrf51_svd__gpio__pin_cnf_pull_fieldRP" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:86:42" }
+edge: { sourcename: "nrf51__gpio__pull_resistor" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:82:4" }
+node: { title: "nrf51__gpio__set" label: "Set\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:69:4\n16 bytes (static)" }
+node: { title: "nrf51__gpio__set_mode" label: "Set_Mode\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:51:4\n32 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__set_mode" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:59:26" }
+edge: { sourcename: "nrf51__gpio__set_mode" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:56:24" }
+edge: { sourcename: "nrf51__gpio__set_mode" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\Ada_Drivers_Library\hal\src\hal-gpio.ads:63:24" }
+edge: { sourcename: "nrf51__gpio__set_mode" targetname: "nrf51__gpio__support" label: "D:\programming\ada_projects\Ada_Drivers_Library\hal\src\hal-gpio.ads:63:28" }
+edge: { sourcename: "nrf51__gpio__set_mode" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:51:4" }
+node: { title: "nrf51__gpio__mode" label: "Mode\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:37:4\n24 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__mode" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:40:15" }
+edge: { sourcename: "nrf51__gpio__mode" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.adb:37:4" }
+node: { title: "nrf51__gpio__support" label: "Support\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:71:4\n16 bytes (static)" }
+edge: { sourcename: "nrf51__gpio__support" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:74:13" }
+node: { title: "nrf51__gpio___assign" label: "Gpio\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:66:9\n24 bytes (static)" }
+node: { title: "nrf51__gpio__Oeq" label: "=\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:66:4\n16 bytes (static)" }
+node: { title: "nrf51__gpio___size" label: "Gpio\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:66:9\n24 bytes (static)" }
+node: { title: "nrf51__gpio__gpio_pointIP" label: "Gpio_Pointip\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:66:9\n16 bytes (static)" }
+node: { title: "nrf51__gpio__gpio_configurationIP" label: "Gpio_Configurationip\nD:\programming\ada_projects\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf51-gpio.ads:58:9\n16 bytes (static)" }
+}

@@ -1,0 +1,156 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U nrf51.adc%b		nrf51-adc.adb		5a72059c NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
+W nrf51%s		nrf51.ads		nrf51.ali
+W nrf51.tasks%s		nrf51-tasks.adb		nrf51-tasks.ali
+W nrf51_svd%s		nrf51_svd.ads		nrf51_svd.ali
+W nrf51_svd.adc%s	nrf51_svd-adc.ads	nrf51_svd-adc.ali
+
+U nrf51.adc%s		nrf51-adc.ads		64e621f9 EE NE OO PK
+W hal%s			hal.ads			hal.ali
+W nrf51%s		nrf51.ads		nrf51.ali
+
+D hal.ads		20180927154656 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-adc.ads		20180927154656 1b2be61f nrf51.adc%s
+D nrf51-adc.adb		20180927154656 4a457b92 nrf51.adc%b
+D nrf51-tasks.ads	20180927154656 dfd2411e nrf51.tasks%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-aar.ads	20180927154656 5b15545c nrf51_svd.aar%s
+D nrf51_svd-adc.ads	20180927154656 d4ced90f nrf51_svd.adc%s
+D nrf51_svd-ccm.ads	20180927154656 a60c4092 nrf51_svd.ccm%s
+D nrf51_svd-clock.ads	20180927154656 046a1b24 nrf51_svd.clock%s
+D nrf51_svd-ecb.ads	20180927154656 7a70bd0f nrf51_svd.ecb%s
+D nrf51_svd-gpiote.ads	20180927154656 36bdd7e1 nrf51_svd.gpiote%s
+D nrf51_svd-power.ads	20180927154656 bac5d844 nrf51_svd.power%s
+D nrf51_svd-ppi.ads	20180927154656 dc26977b nrf51_svd.ppi%s
+D nrf51_svd-qdec.ads	20180927154656 da53e169 nrf51_svd.qdec%s
+D nrf51_svd-radio.ads	20180927154656 a2a815ac nrf51_svd.radio%s
+D nrf51_svd-rng.ads	20180927154656 de38d891 nrf51_svd.rng%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-temp.ads	20180927154656 d6aebf8e nrf51_svd.temp%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D nrf51_svd-uart.ads	20180927154656 bc286d36 nrf51_svd.uart%s
+D nrf51_svd-wdt.ads	20180927154656 7efc13a6 nrf51_svd.wdt%s
+D system.ads		20181030114412 14907ac1 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 hal.ads
+34K9*HAL 166e8 4|32w6 32r15
+54M9*UInt10 4|59r36 5|160r36
+X 3 nrf51.ads
+34K9*nRF51 43e10 4|34r9 61r5 5|33r6 33r25 35r14 169r5
+38M9*Task_Type<25|85M9>
+X 4 nrf51-adc.ads
+34K15*ADC 3|34k9 4|61l11 61e14 5|35b20 169l11 169t14
+36I9*Bits_Resolution<short_short_integer> 50r15 55r15 5|37r36 44r36 85r15
+. 130r15
+38I9*Analog_Pin<short_short_integer> 47r15 5|82r15
+40E9*Pin_Input_Selection 40e72 48r15 5|83r15
+40n33*Pin_Full{40E9} 5|92r15
+40n43*Pin_Two_Third{40E9} 5|94r15
+40n58*Pin_One_Third{40E9} 5|96r15
+41E9*VDD_Input_Selection 41e62 53r15 5|128r15
+41n33*VDD_Two_Third{41E9} 5|139r15
+41n48*VDD_One_Third{41E9} 5|141r15
+43E9*Reference_Selection 44e57 49r15 54r15 5|38r35 57r35 84r15 129r15
+43n33*Internal_1V2{43E9} 5|62r15
+43n47*External_AREF0{43E9} 5|64r15
+43n63*External_AREF1{43E9} 5|67r15
+44n33*VDD_Half{43E9} 5|70r15
+44n43*VDD_One_Third{43E9} 5|72r15
+46U14*Start_Pin_Conversion 47>7 48>7 49>7 50>7 5|81b14 121l8 121t28
+47i7 Pin{38I9} 5|82b7 100r12
+48e7 Input{40E9} 5|83b7 91r12
+49e7 Ref{43E9} 5|84b7 89r22
+50i7 Res{36I9} 5|85b7 88r23
+52U14*Start_VDD_Conversion 53>7 54>7 55>7 5|127b14 147l8 147t28
+53e7 Input{41E9} 5|128b7 138r12
+54e7 Ref{43E9} 5|129b7 134r22
+55i7 Res{36I9} 5|130b7 133r23
+57V13*Busy{boolean} 5|153b13
+59V13*Wait_For_Result{1|54M9} 5|160b13 167l8 167t23
+X 5 nrf51-adc.adb
+37U14 Set_Resolution 37>30 44b14 51l8 51t22 88s7 133s7
+37i30 Res{4|36I9} 44b30 47r15
+38U14 Set_Reference 38>29 57b14 75l8 75t21 89s7 134s7
+38e29 Ref{4|43E9} 57b29 61r12
+X 6 nrf51-tasks.ads
+53K15*Tasks 5|33w12 33r31 6|425e16
+55U14*Trigger 5|120s7 146s7
+193m4*ADC_START{3|38M9} 5|120r16 146r16
+X 7 nrf51_svd.ads
+40K9*NRF51_SVD 5|32r6 32r25 7|114e14
+X 9 nrf51_svd-adc.ads
+39K19*ADC 5|32w16 32r35 9|409e18
+130n7*Busy{125E9} 5|154r31 162r36
+139e7*BUSY{125E9} 5|154r24 162r29
+158n7*Enabled{152E9} 5|119r35 145r35 165r35
+167e7*ENABLE{152E9} 5|119m25 145m25 165m25
+183n7*CONFIG_RES_Field_8BIT{180E9} 5|48r24
+185n7*CONFIG_RES_Field_9BIT{180E9} 5|49r24
+187n7*CONFIG_RES_Field_10BIT{180E9} 5|50r24
+199n7*Analoginputnoprescaling{195E9} 5|93r41
+202n7*Analoginputtwothirdsprescaling{195E9} 5|95r41
+205n7*Analoginputonethirdprescaling{195E9} 5|97r41
+207n7*Supplytwothirdsprescaling{195E9} 5|140r41
+209n7*Supplyonethirdprescaling{195E9} 5|142r41
+222n7*Vbg{219E9} 5|63r41
+225n7*External{219E9} 5|65r41 68r41
+228n7*Supplyonehalfprescaling{219E9} 5|71r41
+231n7*Supplyonethirdprescaling{219E9} 5|73r41
+243n7*Disabled{240E9} 5|136r33
+245n7*Analoginput0{240E9} 5|102r39
+247n7*Analoginput1{240E9} 5|104r39
+249n7*Analoginput2{240E9} 5|106r39
+251n7*Analoginput3{240E9} 5|108r39
+253n7*Analoginput4{240E9} 5|110r39
+255n7*Analoginput5{240E9} 5|112r39
+257n7*Analoginput6{240E9} 5|114r39
+259n7*Analoginput7{240E9} 5|116r39
+276n7*None{273E9} 5|59r38
+278n7*Analogreference0{273E9} 5|66r44
+280n7*Analogreference1{273E9} 5|69r44
+290e7*RES{180E9} 5|46m25
+293e7*INPSEL{195E9} 5|93m31 95m31 97m31 140m31 142m31
+296e7*REFSEL{219E9} 5|63m31 65m31 68m31 71m31 73m31
+300e7*PSEL{240E9} 5|102m31 104m31 106m31 108m31 110m31 112m31 114m31 116m31
+. 136m25
+302e7*EXTREFSEL{273E9} 5|59m25 66m31 69m31
+324m7*RESULT{319M12} 5|166r32
+380r7*BUSY{137R9} 5|154r19 162r24
+382r7*ENABLE{165R9} 5|119m18 145m18 165m18
+384r7*CONFIG{288R9} 5|46m18 59m18 63m24 65m24 66m24 68m24 69m24 71m24 73m24
+. 93m24 95m24 97m24 102m24 104m24 106m24 108m24 110m24 112m24 114m24 116m24
+. 136m18 140m24 142m24
+386r7*RESULT{322R9} 5|166r25
+406r4*ADC_Periph{368R9} 5|46m7 59m7 63m13 65m13 66m13 68m13 69m13 71m13 73m13
+. 93m13 95m13 97m13 102m13 104m13 106m13 108m13 110m13 112m13 114m13 116m13
+. 119m7 136m7 140m13 142m13 145m7 154r8 162r13 165m7 166r14
+X 25 system.ads
+85M9*Address
+
