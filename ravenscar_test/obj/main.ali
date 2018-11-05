@@ -14,7 +14,7 @@ RN
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		4a22abb7 NE OO SU
+U main%b		main.adb		65925e44 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W microbit%s		microbit.ads		microbit.ali
@@ -27,7 +27,7 @@ D hal.ads		20180927154656 2b42c80e hal%s
 D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
 D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
 D interfac.ads		20180524194940 5ab55268 interfaces%s
-D main.adb		20181102144624 f1c72555 main%b
+D main.adb		20181102172110 de77d0a6 main%b
 D microbit.ads		20180927154656 4ce6a4c2 microbit%s
 D microbit-ios.ads	20180927154656 f7f319ec microbit.ios%s
 D nrf51.ads		20180927154656 548f0fe8 nrf51%s
@@ -68,5 +68,6 @@ X 8 main.adb
 X 9 microbit.ads
 35K9*MicroBit 8|2r6 2r24 9|67e13
 X 10 microbit-ios.ads
-32K18*IOs 8|2w15 10|69e17
+32K18*IOs 8|2w15 7r4 9r4 10|69e17
+50U14*Set 8|7s8 9s8
 
