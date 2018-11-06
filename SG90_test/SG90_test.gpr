@@ -1,6 +1,6 @@
 with "../Ada_Drivers_Library/boards/MicroBit/microbit_zfp.gpr";
 
-project rts_car_project is
+project SG90_test is
 
    for Runtime ("ada") use "zfp-microbit";
    for Target use "arm-eabi";
@@ -23,4 +23,4 @@ project rts_car_project is
       for Connection_Tool use "pyocd";
    end Ide;
 
-end rts_car_project;
+end SG90_test;

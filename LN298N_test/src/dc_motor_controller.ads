@@ -7,7 +7,7 @@ package dc_motor_controller is
    procedure set_direction(state: in Boolean);
    
 private
-   pwm_pin: constant MicroBit.IOs.Pin_Id := 0;  
-   direction_pin_1: constant MicroBit.IOs.Pin_Id := 2;
-   direction_pin_2: constant MicroBit.IOs.Pin_Id := 3;   
+   direction_pin_1: constant MicroBit.IOs.Pin_Id := 0;
+   direction_pin_2: constant MicroBit.IOs.Pin_Id := 1;
+   pwm_pin: constant MicroBit.IOs.Pin_Id := 2;  
 end dc_motor_controller;
