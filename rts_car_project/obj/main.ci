@@ -1,0 +1,31 @@
+graph: { title: "D:\programming\ada_projects\rts_car_project\src\main.adb"
+node: { title: "steering__turn" label: "Turn\nD:\programming\ada_projects\rts_car_project\src\steering.ads:8:14" shape : ellipse }
+node: { title: "microbit__ios__set" label: "Set\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-ios.ads:50:14" shape : ellipse }
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-time.ads:41:14" shape : ellipse }
+node: { title: "microbit__ios__set__2" label: "Set\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-ios.ads:53:13" shape : ellipse }
+node: { title: "dc_motor_controller__set_speed" label: "set_speed\nD:\programming\ada_projects\rts_car_project\src\dc_motor_controller.ads:8:14" shape : ellipse }
+node: { title: "dc_motor_controller__set_direction" label: "set_direction\nD:\programming\ada_projects\rts_car_project\src\dc_motor_controller.ads:9:14" shape : ellipse }
+node: { title: "steering__center_wheels" label: "Center_Wheels\nD:\programming\ada_projects\rts_car_project\src\steering.ads:9:14" shape : ellipse }
+node: { title: "_ada_main" label: "Main\nD:\programming\ada_projects\rts_car_project\src\main.adb:6:1\n32 bytes (static)" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_speed" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:79:32" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_direction" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:78:32" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:73:22" }
+edge: { sourcename: "_ada_main" targetname: "steering__turn" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:72:18" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:71:22" }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:70:23" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:65:22" }
+edge: { sourcename: "_ada_main" targetname: "steering__turn" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:64:18" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:63:22" }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:62:23" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_speed" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:56:32" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_direction" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:55:32" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_speed" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:50:29" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:44:39" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:40:22" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:39:22" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:38:22" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set__2" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:37:22" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_speed" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:32:23" }
+edge: { sourcename: "_ada_main" targetname: "dc_motor_controller__set_direction" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:31:23" }
+edge: { sourcename: "_ada_main" targetname: "steering__center_wheels" label: "D:\programming\ada_projects\rts_car_project\src\main.adb:30:12" }
+}

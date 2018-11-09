@@ -1,0 +1,34 @@
+graph: { title: "D:\programming\ada_projects\rts_car_project\src\steering.adb"
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-time.ads:41:14" shape : ellipse }
+node: { title: "dc_motor_controller__set_direction" label: "set_direction\nD:\programming\ada_projects\rts_car_project\src\dc_motor_controller.ads:7:14" shape : ellipse }
+node: { title: "microbit__servos__go" label: "Go\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-servos.ads:46:14" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nD:\gnat\2018-arm-elf\arm-eabi\lib\gnat\zfp-microbit\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "microbit__servos__servo_pin_idPredicate" label: "Servo_Pin_Idpredicate\nD:\programming\ada_projects\Ada_Drivers_Library\boards\MicroBit\src\microbit-servos.ads:38:12" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+node: { title: "dc_motor_controller__set_speed" label: "set_speed\nD:\programming\ada_projects\rts_car_project\src\dc_motor_controller.ads:6:14" shape : ellipse }
+node: { title: "steering___elabs" label: "Steering\nD:\programming\ada_projects\rts_car_project\src\steering.ads:3:1\n16 bytes (static)" }
+edge: { sourcename: "steering___elabs" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\rts_car_project\src\steering.ads:12:4" }
+edge: { sourcename: "steering___elabs" targetname: "microbit__servos__servo_pin_idPredicate" label: "D:\programming\ada_projects\rts_car_project\src\steering.ads:12:4" }
+node: { title: "steering__center_wheels" label: "Center_Wheels\nD:\programming\ada_projects\rts_car_project\src\steering.adb:26:4\n16 bytes (static)" }
+edge: { sourcename: "steering__center_wheels" targetname: "microbit__servos__go" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:28:13" }
+edge: { sourcename: "steering__center_wheels" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:28:17" }
+edge: { sourcename: "steering__center_wheels" targetname: "microbit__servos__servo_pin_idPredicate" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:28:17" }
+node: { title: "steering__turn" label: "Turn\nD:\programming\ada_projects\rts_car_project\src\steering.adb:6:4\n40 bytes (static)" }
+edge: { sourcename: "steering__turn" targetname: "steering__center_wheels" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:22:7" }
+edge: { sourcename: "steering__turn" targetname: "microbit__time__delay_ms" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:21:20" }
+edge: { sourcename: "steering__turn" targetname: "dc_motor_controller__set_speed" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:20:26" }
+edge: { sourcename: "steering__turn" targetname: "dc_motor_controller__set_direction" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:19:26" }
+edge: { sourcename: "steering__turn" targetname: "microbit__servos__go" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:16:19" }
+edge: { sourcename: "steering__turn" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:16:70" }
+edge: { sourcename: "steering__turn" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:16:70" }
+edge: { sourcename: "steering__turn" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:16:64" }
+edge: { sourcename: "steering__turn" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:16:23" }
+edge: { sourcename: "steering__turn" targetname: "microbit__servos__servo_pin_idPredicate" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:16:23" }
+edge: { sourcename: "steering__turn" targetname: "microbit__servos__go" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:14:19" }
+edge: { sourcename: "steering__turn" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:14:64" }
+edge: { sourcename: "steering__turn" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:14:64" }
+edge: { sourcename: "steering__turn" targetname: "system__assertions__raise_assert_failure" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:14:23" }
+edge: { sourcename: "steering__turn" targetname: "microbit__servos__servo_pin_idPredicate" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:14:23" }
+edge: { sourcename: "steering__turn" targetname: "__gnat_last_chance_handler" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:12:12" }
+edge: { sourcename: "steering__turn" targetname: "dc_motor_controller__set_speed" label: "D:\programming\ada_projects\rts_car_project\src\steering.adb:10:26" }
+}

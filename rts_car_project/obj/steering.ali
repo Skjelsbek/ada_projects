@@ -1,0 +1,99 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=D:\gnat\2018-arm-elf\arm-eabi\lib\gnat\zfp-microbit\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U steering%b		steering.adb		54bd48c3 NE OO PK
+W dc_motor_controller%s	dc_motor_controller.adb	dc_motor_controller.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W microbit%s		microbit.ads		microbit.ali
+W microbit.time%s	microbit-time.adb	microbit-time.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U steering%s		steering.ads		2470696e EE OO PK
+W microbit%s		microbit.ads		microbit.ali
+W microbit.servos%s	microbit-servos.adb	microbit-servos.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-tags.ads		20180524194940 2dde273c ada.tags%s
+D dc_motor_controller.ads  20181106150650 a05d2afc dc_motor_controller%s
+D hal.ads		20180927154656 2b42c80e hal%s
+D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
+D hal-time.ads		20180927154656 f5295cd7 hal.time%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D microbit.ads		20180927154656 4ce6a4c2 microbit%s
+D microbit-ios.ads	20180927154656 f7f319ec microbit.ios%s
+D microbit-servos.ads	20181024110954 c282b648 microbit.servos%s
+D microbit-time.ads	20180927154656 6bbc81c6 microbit.time%s
+D nrf51.ads		20180927154656 548f0fe8 nrf51%s
+D nrf51-device.ads	20180927154656 183dcd1d nrf51.device%s
+D nrf51-gpio.ads	20180927154656 8e815cce nrf51.gpio%s
+D nrf51-rtc.ads		20180927154656 8c8bcaa7 nrf51.rtc%s
+D nrf51-timers.ads	20180927154656 6db9a45c nrf51.timers%s
+D nrf51-twi.ads		20180927154656 c6a4f1a2 nrf51.twi%s
+D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
+D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
+D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
+D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
+D steering.ads		20181108140948 e6f2df26 steering%s
+D steering.adb		20181108165210 79ae3cdf steering%b
+D system.ads		20181030112542 d6ae8d8f system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 3 dc_motor_controller.ads
+2K9*dc_motor_controller 13e24 24|1w6 10r7 19r7 19r41 20r7
+3b4*forward{boolean} 24|19r61
+6U14*set_speed 24|10s27 20s27
+7U14*set_direction 24|19s27
+X 5 hal-gpio.ads
+47h9*GPIO_Point
+X 6 hal-i2c.ads
+48h9*I2C_Port
+X 7 hal-time.ads
+34h9*Delays
+X 9 microbit.ads
+35K9*MicroBit 67e13 23|1r6 1r27 24|2r6 21r7
+X 10 microbit-ios.ads
+34I9*Pin_Id<short_short_integer>
+X 11 microbit-servos.ads
+34K18*Servos 52e20 23|1w15 12r24 24|14r13 14r34 16r13 16r34 28r7 28r28
+38I12*Servo_Pin_Id{10|34I9} 23|12r31
+41I9*Servo_Set_Point<short_integer> 24|14r41 16r41 28r35
+46U14*Go 24|14s20 16s20 28s14
+X 12 microbit-time.ads
+35K18*Time 81e18 24|2w15 21r16
+41U14*Delay_Ms 24|21s21
+X 23 steering.ads
+3K9*Steering 12E4 14l5 14e13 24|4b14 31l5 31t13
+5E9*direction 5e35 7r28 24|6r28
+5n23*left{5E9} 24|13r15
+5n29*right{5E9}
+7U14*turn 7>20 7>39 24|6b14 24l8 24t12
+7e20 dir{5E9} 24|6b20 12r12
+7i39 deg{integer} 24|6b39 14r66 16r66
+8U14*center_wheels 24|22s7 26b14 29l8 29t21
+12i4 servo_pin{11|38I12} 24|14r23 16r23 28r17
+13i4 center{integer} 24|14r57 16r57 28r51
+
