@@ -22,7 +22,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U steering%b		steering.adb		54bd48c3 NE OO PK
+U steering%b		steering.adb		69fb3cb6 NE OO PK
 W dc_motor_controller%s	dc_motor_controller.adb	dc_motor_controller.ali
 Z interfaces%s		interfac.ads		interfac.ali
 W microbit%s		microbit.ads		microbit.ali
@@ -36,7 +36,7 @@ Z system.assertions%s	s-assert.adb		s-assert.ali
 
 D ada.ads		20180524194940 76789da1 ada%s
 D a-tags.ads		20180524194940 2dde273c ada.tags%s
-D dc_motor_controller.ads  20181106150650 a05d2afc dc_motor_controller%s
+D dc_motor_controller.ads  20181109181858 a05d2afc dc_motor_controller%s
 D hal.ads		20180927154656 2b42c80e hal%s
 D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
 D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
@@ -56,17 +56,19 @@ D nrf51_svd.ads		20180927154656 a764dc2d nrf51_svd%s
 D nrf51_svd-rtc.ads	20180927154656 7ec0736e nrf51_svd.rtc%s
 D nrf51_svd-timer.ads	20180927154656 31dae6f3 nrf51_svd.timer%s
 D nrf51_svd-twi.ads	20180927154656 87adf514 nrf51_svd.twi%s
-D steering.ads		20181108140948 e6f2df26 steering%s
-D steering.adb		20181108165210 79ae3cdf steering%b
+D steering.ads		20181109181844 e6f2df26 steering%s
+D steering.adb		20181113095212 44e848aa steering%b
 D system.ads		20181030112542 d6ae8d8f system%s
 D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
 D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
 D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
 X 3 dc_motor_controller.ads
-2K9*dc_motor_controller 13e24 24|1w6 10r7 19r7 19r41 20r7
-3b4*forward{boolean} 24|19r61
-6U14*set_speed 24|10s27 20s27
-7U14*set_direction 24|19s27
+2K9*dc_motor_controller 16e24 24|1w6 11r7 12r7 12r41 13r7 15r7 24r7 24r41
+. 25r7
+4b4*forward{boolean} 24|24r61
+5b4*backward{boolean} 24|12r61
+8U14*set_speed 24|11s27 13s27 15s27 25s27
+9U14*set_direction 24|12s27 24s27
 X 5 hal-gpio.ads
 47h9*GPIO_Point
 X 6 hal-i2c.ads
@@ -74,26 +76,26 @@ X 6 hal-i2c.ads
 X 7 hal-time.ads
 34h9*Delays
 X 9 microbit.ads
-35K9*MicroBit 67e13 23|1r6 1r27 24|2r6 21r7
+35K9*MicroBit 67e13 23|1r6 1r27 24|2r6 14r7 26r7
 X 10 microbit-ios.ads
 34I9*Pin_Id<short_short_integer>
 X 11 microbit-servos.ads
-34K18*Servos 52e20 23|1w15 12r24 24|14r13 14r34 16r13 16r34 28r7 28r28
-38I12*Servo_Pin_Id{10|34I9} 23|12r31
-41I9*Servo_Set_Point<short_integer> 24|14r41 16r41 28r35
-46U14*Go 24|14s20 16s20 28s14
+34K18*Servos 52e20 23|1w15 14r24 24|19r13 19r34 21r13 21r34 34r7 34r28
+38I12*Servo_Pin_Id{10|34I9} 23|14r31
+41I9*Servo_Set_Point<short_integer> 24|19r41 21r41 34r35
+46U14*Go 24|19s20 21s20 34s14
 X 12 microbit-time.ads
-35K18*Time 81e18 24|2w15 21r16
-41U14*Delay_Ms 24|21s21
+35K18*Time 81e18 24|2w15 14r16 26r16
+41U14*Delay_Ms 24|14s21 26s21
 X 23 steering.ads
-3K9*Steering 12E4 14l5 14e13 24|4b14 31l5 31t13
-5E9*direction 5e35 7r28 24|6r28
-5n23*left{5E9} 24|13r15
+3K9*Steering 14E4 16l5 16e13 24|4b14 37l5 37t13
+5E9*direction 5e35 8r28 24|7r28
+5n23*left{5E9} 24|18r15
 5n29*right{5E9}
-7U14*turn 7>20 7>39 24|6b14 24l8 24t12
-7e20 dir{5E9} 24|6b20 12r12
-7i39 deg{integer} 24|6b39 14r66 16r66
-8U14*center_wheels 24|22s7 26b14 29l8 29t21
-12i4 servo_pin{11|38I12} 24|14r23 16r23 28r17
-13i4 center{integer} 24|14r57 16r57 28r51
+8U14*turn 8>20 8>39 24|7b14 29l8 29t12
+8e20 dir{5E9} 24|7b20 17r12
+8i39 deg{integer} 24|7b39 19r66 21r66
+9U14*center_wheels 24|27s7 32b14 35l8 35t21
+14i4 servo_pin{11|38I12} 24|19r23 21r23 34r17
+15i4 center{integer} 24|19r57 21r57 34r51
 

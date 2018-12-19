@@ -28,8 +28,8 @@ W microbit.ios%s	microbit-ios.adb	microbit-ios.ali
 
 D ada.ads		20180524194940 76789da1 ada%s
 D a-tags.ads		20180524194940 2dde273c ada.tags%s
-D dc_motor_controller.ads  20181106150650 a05d2afc dc_motor_controller%s
-D dc_motor_controller.adb  20181106094226 cdbb5afc dc_motor_controller%b
+D dc_motor_controller.ads  20181109181858 a05d2afc dc_motor_controller%s
+D dc_motor_controller.adb  20181109181612 cdbb5afc dc_motor_controller%b
 D hal.ads		20180927154656 2b42c80e hal%s
 D hal-gpio.ads		20180927154656 7f0c2ffe hal.gpio%s
 D hal-i2c.ads		20180927154656 0ed73138 hal.i2c%s
@@ -50,26 +50,26 @@ D system.ads		20181030112542 d6ae8d8f system%s
 D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
 D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
 X 3 dc_motor_controller.ads
-2K9*dc_motor_controller 10E4 13l5 13e24 4|1b14 14l5 14t24
-3b4*forward{boolean}
-4b4*backward{boolean}
-6U14*set_speed 6>24 4|3b14 6l8 6t17
-6i24 pwm{10|56I9} 4|3b24 5r35
-7U14*set_direction 7>28 4|8b14 12l8 12t21
-7b28 state{boolean} 4|8b28 10r45 11r41
-10i4 pwm_pin{10|34I9} 4|5r26
-11i4 direction_pin_1{10|34I9} 4|10r24
-12i4 direction_pin_2{10|34I9} 4|11r24
+2K9*dc_motor_controller 13E4 16l5 16e24 4|1b14 16l5 16t24
+4b4*forward{boolean}
+5b4*backward{boolean}
+8U14*set_speed 8>24 4|4b14 7l8 7t17
+8i24 pwm{10|56I9} 4|4b24 6r35
+9U14*set_direction 9>28 4|10b14 14l8 14t21
+9b28 state{boolean} 4|10b28 12r45 13r41
+13i4 pwm_pin{10|34I9} 4|6r26
+14i4 direction_pin_1{10|34I9} 4|12r24
+15i4 direction_pin_2{10|34I9} 4|13r24
 X 6 hal-gpio.ads
 47h9*GPIO_Point
 X 7 hal-i2c.ads
 48h9*I2C_Port
 X 9 microbit.ads
-35K9*MicroBit 3|1r6 6r32 10r22 11r30 12r30 4|3r32 5r7 10r7 11r7 9|67e13
+35K9*MicroBit 3|1r6 8r32 13r22 14r30 15r30 4|4r32 6r7 12r7 13r7 9|67e13
 X 10 microbit-ios.ads
-32K18*IOs 3|1w15 6r41 10r31 11r39 12r39 4|3r41 5r16 10r16 11r16 10|69e17
-34I9*Pin_Id<short_short_integer> 3|10r35 11r43 12r43
-50U14*Set 4|10s20 11s20
-56I9*Analog_Value<short_integer> 3|6r45 4|3r45
-62U14*Write 4|5s20
+32K18*IOs 3|1w15 8r41 13r31 14r39 15r39 4|4r41 6r16 12r16 13r16 10|69e17
+34I9*Pin_Id<short_short_integer> 3|13r35 14r43 15r43
+50U14*Set 4|12s20 13s20
+56I9*Analog_Value<short_integer> 3|8r45 4|4r45
+62U14*Write 4|6s20
 

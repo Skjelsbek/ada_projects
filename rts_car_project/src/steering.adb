@@ -9,7 +9,11 @@ package body Steering is
    begin
       
       dc_motor_controller.set_speed(0);
-      
+      dc_motor_controller.set_direction(dc_motor_controller.backward);
+      dc_motor_controller.set_speed(500);
+      MicroBit.Time.Delay_Ms(1000);
+      dc_motor_controller.set_speed(0);
+
       case dir is
          when left =>
             Servos.Go(servo_pin, Servos.Servo_Set_Point(center - deg));
@@ -18,8 +22,8 @@ package body Steering is
       end case;
       
       dc_motor_controller.set_direction(dc_motor_controller.forward);
-      dc_motor_controller.set_speed(600);
-      MicroBit.Time.Delay_Ms(3500);
+      dc_motor_controller.set_speed(500);
+      MicroBit.Time.Delay_Ms(3000);
       center_wheels;
       
    end turn;
